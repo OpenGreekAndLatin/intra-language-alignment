@@ -49,8 +49,8 @@ padding:25px; font-size:14pt;
 </div>
 <div style="width:90%;margin: auto; padding-top:20px;">
 <div class="content">
-Intra-language alignment is the alignment of two texts in the same language, 
-for example Alignment of the American Standard Version (ASV) and the English Standard Version (ESV) of the new testament.<br> <a href="examples.php" target="_blank">Example</a></div>
+Intra-language alignment is the alignment of two texts in the same language. 
+<br> <a href="examples.php" target="_blank">Example</a></div>
 
 <form>
 	<div class="row" >
@@ -60,19 +60,24 @@ for example Alignment of the American Standard Version (ASV) and the English Sta
 	</div>
 	<br />
 	<label class="checkbox-inline"><input type="checkbox" name="punctuation" value="1" <?php if($_REQUEST['punctuation']==1) echo "checked";?>>Ignore punctuation</label>
+	<label class="checkbox-inline"><input type="checkbox" name="diac" value="1" <?php if($_REQUEST['diac']==1) echo "checked";?>>Ignore Diacritics</label>	
 	<label class="checkbox-inline"><input type="checkbox" name="case" value="1" <?php if($_REQUEST['case']==1) echo "checked";?>>Case sensitive</label>	
 	<br><button type="submit" class="btn btn-primary">Align</button>
 </form>	
 	<?php
-	 require_once("func.php");
+	 //require_once("func.php");
+	 require_once("Aligner.php");
 	 if($_REQUEST['Text1']!="" && $_REQUEST['Text2']!="")
 	 {
 	 	$sentece1=$_REQUEST['Text1'];
 	 	$sentece2=$_REQUEST['Text2'];
 	 	$punct=$_REQUEST['punctuation'];
 	 	$case=$_REQUEST['case'];
+	 	$diac=$_REQUEST['diac'];
 	 	
-		  compute(tokenize($sentece1),tokenize($sentece2),$punct,$case);
+	 	$align=new Aligner($sentece1,$sentece2,$punct,$case,$diac);
+		$align->compute();
+		 //compute(tokenize($sentece1),tokenize($sentece2),$punct,$case,$diac);
 	 }
 	 ?>
 </div>
