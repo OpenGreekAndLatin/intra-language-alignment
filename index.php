@@ -45,7 +45,7 @@ padding:25px; font-size:14pt;
 <body style="font-family: 'Roboto Condensed', sans-serif;">
 <div class="warpper">
 <div class="headDiv">
-	<h1><img src="logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version)</h1>
+	<h1><img src="logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="lavori-in-corso.png" height="90" align="right"></h1> 
 </div>
 <div style="width:90%;margin: auto; padding-top:20px;">
 <div class="content">

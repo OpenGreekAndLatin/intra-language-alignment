@@ -13,7 +13,7 @@
 <body style="font-family: 'Roboto Condensed', sans-serif;">
     
 <?php
-include("func.php");
+include("Aligner.php");
 $sentence1[]="And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light.";
 $sentence2[]="And the earth was waste and without form; and it was dark on the face of the deep: and the Spirit of God was moving on the face of the waters. And God said, Let there be light: and there was light.";
 
@@ -32,10 +32,14 @@ $sentence2[]="τῆς δὲ λιβύης ἀπὸ τιγγὸς ἕως στό
 $sentence1[]="ὑπὲρ δὲ τὸ ἱκάριον ἑξῆς ἀνακεῖται τὸ αἰγαῖον";
 $sentence2[]="ὑπὲρ δὲ τὸ ἰκάριον ἑξῆς ἀναχεῖται τὸ αἰγαῖον";
 
+$align=new  Aligner();
+
 for($i=0;$i < sizeof($sentence1);$i++)
 {
-echo $sentence1[$i]."<br><font color='red'>".$sentence2[$i]." </font>";	
-  compute(tokenize($sentence1[$i]),tokenize($sentence2[$i]));
+ echo $sentence1[$i]."<br><font color='red'>".$sentence2[$i]." </font>";	
+
+ $align->setSentences($sentence1[$i],$sentence2[$i]);
+ $align->compute();
 }
 ?>
 </body>

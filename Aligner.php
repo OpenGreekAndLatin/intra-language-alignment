@@ -2,11 +2,11 @@
 
 class Aligner{
 
-private $sentece1;
-private $sentece2;
-private $punctuation;
-private $casesensitive;
-private $diacritics;
+private $sentence1;
+private $sentence2;
+private $punctuation=1;
+private $casesensitive=0;
+private $diacritics=1;
 
 
 // this variables will be ued in Needlman-Wunsch Algorithm
@@ -20,19 +20,29 @@ private $matrix=array();
 private $optimal_alignment=array();
 
 // Constructor
-public function Aligner($sen1,$sen2,$punc,$case,$diac)
+public function Aligner($sen1="",$sen2="",$punc=1,$case=0,$diac=1)
 {
- $this->sentece1=$this->tokenize($sen1);
- $this->sentece2=$this->tokenize($sen2);
+ $this->sentence1=$this->tokenize($sen1);
+ $this->sentence2=$this->tokenize($sen2);
  $this->punctuation=$punc;
  $this->casesensitive=$case; // 1: case sensitive, 0: not case sensitive 
  $this->diacritics=$diac;
 }
 
+function setSentences($s1,$s2)
+{
+
+ $this->sentence1=$this->tokenize($s1);
+ $this->sentence2=$this->tokenize($s2);
+
+}
+
+
+
 function initializeation()
 {
-	$m=count($this->sentece1); // Length of the first sentence
-	$n=count($this->sentece2); // Length of the second sentence
+	$m=count($this->sentence1); // Length of the first sentence
+	$n=count($this->sentence2); // Length of the second sentence
 
  	// initialize the matrix
 	for($i=0;$i<= $m;$i++)
@@ -45,23 +55,73 @@ function initializeation()
 	// End of initialization
 }
 
+
+
 function fillMarix()
 {
-	$m=count($this->sentece1); // Length of the first sentence
-	$n=count($this->sentece2); // Length of the second sentence
+	$m=count($this->sentence1); // Length of the first sentence
+	$n=count($this->sentence2); // Length of the second sentence
 	
 	for($i=0;$i<= $m;$i++){
 		for($j=0;$j<= $n;$j++){
-			$sc=($this->isAligned($this->sentece1[$i],$this->sentece2[$j]))? $this->match: $this->mismatch;			
+			$sc=($this->isAligned($this->sentence1[$i],$this->sentence2[$j]))? $this->match: $this->mismatch;			
 			$ma=$this->matrix[$i-1][$j-1]['val'] + $sc; // M
-            $hgap = $matrix[$i-1][$j]['val'] + $this->gap; // Horizental gap
-            $vgap = $matrix[$i][$j-1]['val'] + $this->gap; // Vertical gap
+            $hgap = $this->matrix[$i-1][$j]['val'] + $this->gap; // Horizental gap
+            $vgap = $this->matrix[$i][$j-1]['val'] + $this->gap; // Vertical gap
             $MaxValue=max($ma,$hgap,$vgap);
             $pointer="NW";
             if($MaxValue==$hgap && $MaxValue > $ma) 
             	$pointer="UP";
             else if($MaxValue==$vgap && $MaxValue > $ma)
-            	$pointer="LEFT"; 
+            	$pointer="LE"; 
+            $this->matrix[$i][$j]['val']=$MaxValue;
+            $this->matrix[$i][$j]['pointer']=$pointer;
+		}	
+	}
+}
+
+function printMatrix()
+{
+	$m=count($this->sentence1); // Length of the first sentence
+	$n=count($this->sentence2); // Length of the second sentence
+	echo "<table class='table'><tr><td></td>";
+	for($i=0;$i<$m;$i++)
+		echo "<th>".$this->sentence1[$i]."</th>";
+	echo "</tr>";
+	for($j=0;$j<$n;$j++)
+	{
+		echo "<tr><th>".$this->sentence2[$j]."</th>";
+		for($i=0;$i<$m;$i++)
+			echo "<td>".$this->matrix[$i+1][$j+1][val]."(".$this->matrix[$i+1][$j+1]['pointer'].")</td>";
+	}
+}
+
+function fillMarix2()
+{
+	$m=count($this->sentence1); // Length of the first sentence
+	$n=count($this->sentence2); // Length of the second sentence
+	
+	for($i=0;$i<= $m;$i++){
+		for($j=0;$j<= $n;$j++){
+			$sc=($this->isAligned($this->sentence1[$i],$this->sentence2[$j]))? $this->match: $this->mismatch;			
+			$ma=$this->matrix[$i-1][$j-1]['val'] + $sc; // M
+            $hgap = $this->matrix[$i-1][$j]['val'] + $this->gap; // Horizental gap
+            $vgap = $this->matrix[$i][$j-1]['val'] + $this->gap; // Vertical gap
+            $MaxValue=max($ma,$hgap,$vgap);
+            $pointer="NW";
+            //  To Detect All possible Solutions
+            if($MaxValue==$hgap && $MaxValue > $ma) 
+            	$pointer="UP";
+            else if($MaxValue==$hgap && $MaxValue == $ma)
+            	$pointer="UPNW";
+            else if($MaxValue==$vgap && $MaxValue > $ma)
+            	$pointer="LE"; 
+            else if($MaxValue==$vgap && $MaxValue == $ma)
+            	$pointer="LENW"; 
+            else if($MaxValue==$vgap && $MaxValue == $hgap)
+            	$pointer="LEUP";
+            else if($MaxValue==$vgap && $MaxValue == $hgap && $MaxValue == $ma)
+            	$pointer="LEUPNW";
             $this->matrix[$i][$j]['val']=$MaxValue;
             $this->matrix[$i][$j]['pointer']=$pointer;
 		}	
@@ -70,25 +130,25 @@ function fillMarix()
 
 function GetOptimalAlignment()
 {
-	$m=count($this->sentece1); // Length of the first sentence
-	$n=count($this->sentece2); // Length of the second sentence
+	$m=count($this->sentence1); // Length of the first sentence
+	$n=count($this->sentence2); // Length of the second sentence
 
 	$this->optimal_alignment['sentence1'] = array();
 	$this->optimal_alignment['sentence2'] = array();
 	$this->optimal_alignment['alignment'] = array();	
 	$this->optimal_alignment['score'] = $this->matrix[$i][$j]['val'];
 	
-	$i=$m;$j=$n;
-	while($i !== 0 and $j !== 0) {
-    $base1 = $this->sentece1[$i-1];
-    $base2 = $this->sentece2[$j-1];
+	$i=$m-1;$j=$n-1;
+	while($i != 0 && $j != 0) {
+    $base1 = $this->sentence1[$i];
+    $base2 = $this->sentence2[$j];
     $pointer = $this->matrix[$i][$j]['pointer'];
     if($pointer == "NW") {
     	$i--;
 	    $j--;
    		$this->optimal_alignment['sentence1'][]=$base1;
 	   	$this->optimal_alignment['sentence2'][]=$base2;
-    } else if($pointer == "LEFT") {
+    } else if($pointer == "LE") {
     	$j--;
 	    $this->optimal_alignment['sentence1'][]=" ";
     	$this->optimal_alignment['sentence2'][]=$base2;    
@@ -103,7 +163,7 @@ function GetOptimalAlignment()
  // copy the rest of sentence2 to the optimal Alignment
   while($j !== 0) {
     $j--;
-  	$base2 = $this->sentece2[$j];
+  	$base2 = $this->sentence2[$j];
     $this->optimal_alignment['sentence1'][]="";
     $this->optimal_alignment['sentence2'][]=$base2;  
   }
@@ -113,7 +173,7 @@ function GetOptimalAlignment()
  // copy the rest of sentence1 to the optimal Alignment
   while($i !== 0) {
     $i--;
-  	$base1 = $this->sentece1[$i];
+  	$base1 = $this->sentence1[$i];
     $this->optimal_alignment['sentence1'][]=$base1;
     $this->optimal_alignment['sentence2'][]="";  
   }
@@ -144,10 +204,15 @@ public function printAlignedSentences()
 
 public function compute()
 {
+	/* $this->initializeation();
+	$this->fillMarix2();
+	$this->printMatrix(); */
+	//print_r($this->sentence1)." ::: ".$this->sentence2;
 	$this->initializeation();
 	$this->fillMarix();
 	$this->GetOptimalAlignment();
 	$this->printAlignedSentences();
+	//$this->printMatrix();
 }
 
 
@@ -184,9 +249,7 @@ function isAligned($w1,$w2)
 	 if(trim(($w1))==trim(($w2)))
 		return True;
 	 else 
-		return False;
-	
-
+		return False;	
 }
 
 //https://en.wikipedia.org/wiki/Greek_diacritics
