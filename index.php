@@ -47,10 +47,10 @@ padding:25px; font-size:14pt;
 <div class="headDiv">
 	<h1><img src="logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="lavori-in-corso.png" height="90" align="right"></h1> 
 </div>
-<div style="width:90%;margin: auto; padding-top:20px;">
+<div style="width:90%;margin: auto; padding-top:10px;">
 <div class="content">
-Intra-language alignment is the alignment of two texts in the same language. 
-<br> <a href="examples.php" target="_blank">Example</a></div>
+The tool allows alignment between two texts in the same language, to detect variants and instances of re-use. Short sentences in English and Ancient Greek (max 50 words) can be effectively compared.<!--, and multi-line alignment is also possible. The resulting files can be exported in XML or CSV format. -->
+<br> <a href="examples.php" target="_blank">Examples</a></div>
 
 <form>
 	<div class="row" >
@@ -61,7 +61,9 @@ Intra-language alignment is the alignment of two texts in the same language.
 	<br />
 	<label class="checkbox-inline"><input type="checkbox" name="punctuation" value="1" <?php if($_REQUEST['punctuation']==1) echo "checked";?>>Ignore punctuation</label>
 	<label class="checkbox-inline"><input type="checkbox" name="diac" value="1" <?php if($_REQUEST['diac']==1) echo "checked";?>>Ignore Diacritics</label>	
-	<label class="checkbox-inline"><input type="checkbox" name="case" value="1" <?php if($_REQUEST['case']==1) echo "checked";?>>Case sensitive</label>	
+	<label class="checkbox-inline"><input type="checkbox" name="case" value="1" <?php if($_REQUEST['case']==1) echo "checked";?>>Case sensitive</label>
+	<label class="checkbox-inline"><input type="checkbox" name="lev" value="1" <?php if($_REQUEST['lev']==1) echo "checked";?>>Levenshtein Distance</label>	
+	
 	<br><button type="submit" class="btn btn-primary">Align</button>
 </form>	
 	<?php
@@ -74,12 +76,18 @@ Intra-language alignment is the alignment of two texts in the same language.
 	 	$punct=$_REQUEST['punctuation'];
 	 	$case=$_REQUEST['case'];
 	 	$diac=$_REQUEST['diac'];
+	 	$lev=$_REQUEST['lev'];
 	 	
-	 	$align=new Aligner($sentece1,$sentece2,$punct,$case,$diac);
+	 	$align=new Aligner($sentece1,$sentece2,$punct,$case,$diac,$lev);
 		$align->compute();
 		 //compute(tokenize($sentece1),tokenize($sentece2),$punct,$case,$diac);
-	 }
-	 ?>
+	?>	 
+	 <table class="table" style="width:400px;font-size:10px" width="200">
+	 <tr>
+	 <th class="success">Completely similar </th> <th class="info"> Levenshtein Distance, Diacritics, Punctuations or Capitalisation </th> <th class="danger"> Not Aligned </th>
+	 </tr>
+	 </table>
+	 <?php }?>
 </div>
 
 
