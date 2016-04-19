@@ -5,52 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Intra-Language Alignment </title>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>    <!-- FA-Icons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">        
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">    
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
-    <style>
-.headDiv {
-		font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 48px;
-        font-weight:700;
-        background-color:#333;margin-top:0px; padding:5px;color:#FFF
-      }
-#footer {
-    background: #EEE;
-    width: 100%;
-    padding-top: 4px;
-    min-height: 4.5em;
-    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
-    border-top: 1px solid #DDD;
-    text-align: center;
-}      
-.push {
-	height: 4.5em;
-    clear: both;
-}
-.warpper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -4.5em;
-}
-.content{
-padding:25px; font-size:14pt;
-}
-    </style>
+    <!-- google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>    
+
 </head>
 <body style="font-family: 'Roboto Condensed', sans-serif;">
 <div class="warpper">
 <div class="headDiv">
-	<h1><img src="logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="lavori-in-corso.png" height="90" align="right"></h1> 
+	<h1><img src="images/logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="images/lavori-in-corso.png" height="90" align="right"></h1> 
 </div>
-<div style="width:90%;margin: auto; padding-top:10px;">
+<div style="width:95%;margin: auto; padding-top:10px;">
 <div class="content">
 The tool allows alignment between two texts in the same language, to detect variants and instances of re-use. Short sentences in English and Ancient Greek (max 50 words) can be effectively compared.<!--, and multi-line alignment is also possible. The resulting files can be exported in XML or CSV format. -->
-<br> <a href="examples.php" target="_blank">Examples</a></div>
+<br> <a href="examples/examples.php" target="_blank">Examples</a></div>
 
 <form>
 	<div class="row" >
@@ -67,9 +40,11 @@ The tool allows alignment between two texts in the same language, to detect vari
 	<br><button type="submit" class="btn btn-primary">Align</button>
 </form>	
 	<?php
-	 //require_once("func.php");
-	 require_once("Aligner.php");
-	 if($_REQUEST['Text1']!="" && $_REQUEST['Text2']!="")
+
+	require_once("models/Sentence.php");
+	require_once("models/Aligner.php");
+	require_once("models/Alignment.php");
+    if($_REQUEST['Text1']!="" && $_REQUEST['Text2']!="")
 	 {
 	 	$sentece1=$_REQUEST['Text1'];
 	 	$sentece2=$_REQUEST['Text2'];
@@ -78,9 +53,15 @@ The tool allows alignment between two texts in the same language, to detect vari
 	 	$diac=$_REQUEST['diac'];
 	 	$lev=$_REQUEST['lev'];
 	 	
-	 	$align=new Aligner($sentece1,$sentece2,$punct,$case,$diac,$lev);
-		$align->compute();
-		 //compute(tokenize($sentece1),tokenize($sentece2),$punct,$case,$diac);
+
+		$aligner=new Aligner();
+		$alignment= new Alignment();
+
+		$aligner->setOptions($punct,$case,$diac,$lev);
+		$alignedSentences=$aligner->align($sentece1,$sentece2); 
+		$alignment->setAlignment($alignedSentences);
+		echo $alignment->getResults();
+
 	?>	 
 	 <table class="table" style="width:400px;font-size:10px" width="200">
 	 <tr>
