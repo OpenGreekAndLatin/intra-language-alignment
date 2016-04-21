@@ -51,7 +51,7 @@
 	for($i=0;$i < sizeof($sentence1);$i++)
 	{
  		echo $sentence1[$i]."<br><font color='red'>".$sentence2[$i]." </font>";	
-		$alignedSentences=$aligner->align($sentence1[$i],$sentence2[$i]); 
+		$alignedSentences=$aligner->PairwiseAlignment($sentence1[$i],$sentence2[$i]); 
 		$alignment->setAlignment($alignedSentences);
 		echo $alignment->getResults();
 	}

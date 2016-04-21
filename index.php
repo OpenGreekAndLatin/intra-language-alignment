@@ -28,16 +28,15 @@ The tool allows alignment between two texts in the same language, to detect vari
 <form>
 	<div class="row" >
 		<div class="col-md-6">First text <textarea name="Text1" class="form-control" rows="4"><?php echo $_REQUEST['Text1'];?></textarea></div>
-		<div class="col-md-6">Second text <textarea name="Text2" class="form-control" rows="4"><?php echo $_REQUEST['Text2'];?></textarea></div>
-		
-	</div>
-	<br />
+		<div class="col-md-6">Second text <textarea name="Text2" class="form-control" rows="4"><?php echo $_REQUEST['Text2'];?></textarea></div>		
+	</div><br />
+	
 	<label class="checkbox-inline"><input type="checkbox" name="punctuation" value="1" <?php if($_REQUEST['punctuation']==1) echo "checked";?>>Ignore punctuation</label>
 	<label class="checkbox-inline"><input type="checkbox" name="diac" value="1" <?php if($_REQUEST['diac']==1) echo "checked";?>>Ignore Diacritics</label>	
 	<label class="checkbox-inline"><input type="checkbox" name="case" value="1" <?php if($_REQUEST['case']==1) echo "checked";?>>Case sensitive</label>
 	<label class="checkbox-inline"><input type="checkbox" name="lev" value="1" <?php if($_REQUEST['lev']==1) echo "checked";?>>Levenshtein Distance</label>	
 	
-	<br><button type="submit" class="btn btn-primary">Align</button>
+	 <br><button type="submit" class="btn btn-primary">Align</button>
 </form>	
 	<?php
 
@@ -58,7 +57,7 @@ The tool allows alignment between two texts in the same language, to detect vari
 		$alignment= new Alignment();
 
 		$aligner->setOptions($punct,$case,$diac,$lev);
-		$alignedSentences=$aligner->align($sentece1,$sentece2); 
+		$alignedSentences=$aligner->PairwiseAlignment($sentece1,$sentece2); 
 		$alignment->setAlignment($alignedSentences);
 		echo $alignment->getResults();
 

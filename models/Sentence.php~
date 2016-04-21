@@ -1,4 +1,4 @@
-<?php
+<?
 // Sentence CLASS
 require_once("Token.php");
 
