@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Intra-Language Alignment </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../style/style.css">        
+    <link rel="stylesheet" href="style/style.css">        
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">    
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -17,7 +17,7 @@
 <body style="font-family: 'Roboto Condensed', sans-serif;">
 <div class="warpper">
 <div class="headDiv">
-	<h1><img src="../images/logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="../images/lavori-in-corso.png" height="90" align="right"></h1> 
+	<h1><img src="images/logo_dh_light.png" height="80"><b>Intra-Language Alignment </b>(Test version) <img src="images/lavori-in-corso.png" height="90" align="right"></h1> 
 </div>
 <div style="width:90%;margin: auto; padding-top:10px;">
 <div class="content">
@@ -54,6 +54,7 @@
 		$alignedSentences=$aligner->PairwiseAlignment($sentence1[$i],$sentence2[$i]); 
 		$alignment->setAlignment($alignedSentences);
 		echo $alignment->getResults();
+		//echo $alignment->niceVisualisation();
 	}
 ?>
 </body>

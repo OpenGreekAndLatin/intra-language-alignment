@@ -14,7 +14,7 @@
     
 </head>
 <body style="font-family: 'Roboto Condensed', sans-serif;">
-<?
+<?php
 // test file
 
 require_once("Sentence.php");
@@ -25,6 +25,7 @@ require_once("Alignment.php");
 $Ts1= "<i><u><h4>BBE (Bible in Basic English): </i></u>";
 $Ts2= "<i><u>ASV (American standadrd Version):  </i></u>";
 $Ts3= "<i><u>NLT (New Living Translation):  </i></u>";
+/*
 $verse[]="Revelation 1-1";
 $s1[]="The Revelation of Jesus Christ which God gave him so that his servants might have knowledge of the things which will quickly take place: and he sent and made it clear by his angel to his servant John; ";
 $s2[]="The Revelation of Jesus Christ, which God gave him to show unto his servants, [even] the things which must shortly come to pass: and he sent and signified [it] by his angel unto his servant John; ";
@@ -39,7 +40,7 @@ $verse[]="Revelation 1-3";
 $s1[]="A blessing be on the reader, and on those who give ear to the prophet's words, and keep the things which he has put in the book: for the time is near.";
 $s2[]="Blessed is he that readeth, and they that hear the words of the prophecy, and keep the things that are written therein: for the time is at hand.";
 $s3[]="God blesses the one who reads the words of this prophecy to the church, and he blesses all who listen to its message and obey what it says, for the time is near.";
-
+*/
 $verse[]="Revelation 1-4";
 $s1[]="John to the seven churches which are in Asia: Grace to you and peace, from him who is and was and is to come; and from the seven Spirits which are before his high seat;";
 $s2[]="John to the seven churches that are in Asia: Grace to you and peace, from him who is and who was and who is to come; and from the seven Spirits that are before his throne;";
@@ -58,8 +59,13 @@ $s3[]="He has made us a Kingdom of priests for God his Father. All glory and pow
 $verse[]="Revelation 1-7";
 $s1[]="See, he comes with the clouds, and every eye will see him, and those by whom he was wounded; and all the tribes of the earth will be sorrowing because of him. Yes, so be it. ";
 $s2[]="Behold, he cometh with the clouds; and every eye shall see him, and they that pierced him; and all the tribes of the earth shall mourn over him. Even so, Amen.";
-$s3[]="Look! He comes with the clouds of heaven. And everyone will see him— even those who pierced him. And all the nations of the world will mourn for him. Yes! Amen!";
+$s3[]="Look! He comes with the clouds of heaven. And every one will see him even those who pierced him. And all the nations of the world will mourn for him. Yes! Amen!";
 
+$str="διαδέχεται τὸ αἰγαῖον ἑλλήσποντος, λῆγον! εἰς= ἀβυδον) καὶ σηστόν εἶτα ἡ προποντὶς λήγει εἰς χαλκηδόνα καὶ βυζάντιον";
+//echo $str="and from Jesus Christ, [who is] the faithful witness, the firstborn of the dead,\n";
+$temp=preg_replace("/\P{L}+/u", " ", $str);
+echo preg_replace("/[ \t\n\r]+/si"," ",$temp);
+/*
 $al=new Aligner();
 $alignment= new Alignment();
 
@@ -72,6 +78,7 @@ for($i=0;$i < sizeof($s1);$i++)
 	$alignment->setAlignment($alignedSentences);
 	echo $alignment->print_multiple_alignment();
 }
+*/
 ?>
 
 </body>

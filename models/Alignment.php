@@ -1,4 +1,4 @@
-<?php
+    <meta charset="utf-8"><?php
 
 class Alignment{
 
@@ -74,6 +74,68 @@ class Alignment{
 	  return $html;	
 	}
 	
+	function niceVisualisation()
+	{
+	 $temp1=$temp2=$temp3="";
+	  $alignedTexts="";
+	  $notAligned[0]="";
+	  $notAligned[1]="";
+	  for($i=0;$i<count($this->AalignedSentences['sentence1']); $i++){
+	  $class="";
+
+	  if($this->AalignedSentences['relation'][$i]=="Aligned"){
+	  		if($notAligned[0]!="" || $notAligned[1]!=""){
+	  			if($temp1!="") 
+	  				$temp1.="<td rowspan=3><img src='images/arr.png' width=30></td>";
+ 		  		$temp1.="<td class='Notshared' align='center'> ".$notAligned[0]." </td>";
+			  	$temp2.="<td></td>";
+		  		$temp3.="<td class='Notshared' align='center'> ".$notAligned[1]." </td>";
+ 				$notAligned[0]="";
+	  			$notAligned[1]="";
+	  		}
+	  		 $alignedTexts.=" ".$this->AalignedSentences['sentence2'][$i];
+
+	  }else{
+	  		if($alignedTexts!=""){
+		  		if($temp1!="") 
+		  			$temp1.="<td rowspan=3><img src='images/arrRe.png' width=30></td>";
+	  			$temp1.="<td ></td>";
+	  			$temp2.="<td class='shared'> ".$alignedTexts." </td>";
+	  			$temp3.="<td ></td>";
+	  			$alignedTexts="";
+	  		}	  	
+		  	$notAligned[0].=" ".$this->AalignedSentences['sentence1'][$i];
+	  		$notAligned[1].=" ".$this->AalignedSentences['sentence2'][$i];
+	  	}
+	  }	 
+	  
+	  
+	  		if($alignedTexts!=""){
+	  			if($temp1!="") 
+	  				$temp1.="<td rowspan=3><img src='images/arrRe.png' width=30></td>";
+	  			$temp1.="</td><td ></td>";
+	  			$temp2.="<td class='shared'> ".$alignedTexts." </td>";
+	  			$temp3.="<td ></td>";
+	  			$alignedTexts="";
+	  		}		  
+	  	  		if($notAligned[0]!="" || $notAligned[1]!=""){
+	  			if($temp1!="") 
+	  				$temp1.="<td rowspan=3><img src='images/arr.png' width=30></td>";
+ 		  		$temp1.="<td class='Notshared'> ".$notAligned[0]." </td>";
+			  	$temp2.="<td ></td>";
+		  		$temp3.="<td class='Notshared'> ".$notAligned[1]." </td>";
+ 				$notAligned[0]="";
+	  			$notAligned[1]="";
+	  		}
+	  $html="<table    style='border-width:0'>";
+	  $html.="<tr>".$temp1."</tr>";
+	  $html.="<tr>".$temp2."</tr>";
+	  $html.="<tr>".$temp3."</tr>";
+	  $html.="</table>";
+	  return $html;	
+	
+	}
+	
 	function getResultsAsJSON()
 	{
 	
@@ -85,7 +147,38 @@ class Alignment{
 	
 	 return "";	
 	}
+
+//////////////////////////////////////	///////////////////////	
 	
+	
+//////////// new stuff for OCR /////////////////////////// 
+		
+	function OCRVisualisation()
+	{
+	  $html="";
+
+	  for($i=0;$i<count($this->AalignedSentences['sentence1']); $i++){
+		  if($this->AalignedSentences['relation'][$i]=="Aligned")
+				$html.="<span class='shared'>".$this->AalignedSentences['sentence1'][$i]."</span>";
+		  else
+				$html.=" ".$this->createList(array($this->AalignedSentences['sentence1'][$i],$this->AalignedSentences['sentence2'][$i]));			
+	  }	 
+	  
+	  return $html;	
+	
+	}
+	
+	function createList($options)
+	{
+	 $ret='<span class="form-group">      
+	 		<select class="form-control inline" id="w1">';
+	 foreach($options as $k=>$option)
+	 	$ret.='<option>'.$option.'</option>';
+	 $ret.='     </select>';
+	 $ret.='</span>';
+	 return $ret;
+	}
+
 }
 
 ?>

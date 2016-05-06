@@ -1,30 +1,31 @@
 <?php
 
-
+// Greek token
 class Token{
-	
-	
+		
 	private static $levensteinThreshold=0.3;
 	
-
 	//https://en.wikipedia.org/wiki/Greek_diacritics
+	// remove greek diacritics
 	static function removeDiacritics($token){
     	$original=	 array("ά","ά","ὰ","έ","ὲ","ή","ὴ","ί","ὶ","ό","ό","ὸ","ύ","ὺ","ώ","ὼ","ᾴ","ᾲ","ῄ","ῂ","ῴ","ῲ","Ά","Ὰ","Έ","Ὲ","Ὴ","Ή","Ί","Ὶ","Ὸ","Ό","Ύ","Ὺ","Ώ","Ὼ");
     	$replacement=array("α","α","α","ε","ε","η","η","ι","ι","ο","ο","ο","υ","υ","ω","ω","ᾳ","ᾳ","ῃ","ῃ","ῳ","ῳ","Α","Α","Ε","Ε","Η","Η","Ι","Ι","Ο","Ο","Υ","Υ","Ω","Ω");
     	return str_replace($original,$replacement,$token);
 	}
 	
-	static function removePunctuation($token){
-		$punc=array("·",",",";","'","(",")",'"',"?","]","[","!","." ,"“",":","”",",");
-		return str_replace($punc,"",$token);
+	// remove non alphanumeric character 
+	static function removeNonAlphanumeric($token){
+		$temp=preg_replace("/\P{L}+/u", " ", $token); // replace non letter charecters with whitespace
+		return preg_replace("/[ \t\n\r]+/si"," ",$temp); // remove multiple whitespaces
 	}	
 	
+	// convert $token to lowercase
 	static function lowerCase($token){
 	// this function doesn't work with Ancient Greek letters, so we need to write new function for case regularization	
 		return strtolower($token);
 	}
 	
-	// Levenshtein Distance
+	// Check the similarity of two tokens according to Levenshtein Distance Metric, using $levensteinThreshold 
 	static function isSimilarTo( $token1, $token2){
 
 		 $l1 = strlen( $token1 ) ; // Length of  $token1 

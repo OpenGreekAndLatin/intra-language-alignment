@@ -8,24 +8,37 @@ class Sentence{
 	public $tokens=array();
 	
 	public function Sentence($txt){
-		$this->text=$txt;
-		$this->tokenize();
+		$this->setText($txt);
 	}
 	
 	function setText($txt){
 		$this->text=$txt;
-		$this->tokenize();
+		if (strpos($txt, '||') !== false)
+			$this->WStokenizer();
+		else
+			$this->AdvancedTokenizer();
 	}
 	
-	
+		
 	// Tokenize the sentence and save it as an array of tokens
 	// The whitespace tokenizer simply breaks on whitespace
-	function tokenize(){
+	function WStokenizer(){
 		$tokens= explode(" ",$this->text);
 		foreach($tokens as $k=>$tok)
 			$this->tokens[]=$tok;				
 	}
+	
+	// Advanced Tokenizer, breaks on punctuations and special charachters
+	function AdvancedTokenizer()
+	{ 
+	 $original=   array('”'  , '“' , '؛' , '،' , "." , "," , ":" , ";" , "[" , "]" , "(" , ")" , "{" , "}" , "\"" , "'" , "\“" , "?" , "!" );
+	 $replacement=array(' " ',' " ',' ; ',' , '," . "," , "," : "," ; "," [ "," ] "," ( "," ) "," { "," } "," \" "," ' "," \“ "," ? "," ! ");
 
+	 $temp=str_replace($original,$replacement,$this->text);
+	 $this->text=preg_replace("/[ \t\n\r]+/si"," ",$temp); // replace multiple whitespaces with single whitespace
+	 $this->tokens=explode(" ",$this->text); 
+	}
+	
 }
 
 
