@@ -1,0 +1,351 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          A digital encoding of Ms Grec 1808, 17r-21v, Paris, Bibliothèque Nationale
+        </title>
+         <respStmt>
+         <resp>edited by</resp>
+         <name>Giuseppe G. A. Celano</name>
+         </respStmt>
+         <respStmt>
+         <resp>transcribed by</resp>
+         <name>Ana-Katarina Gorički</name>
+         </respStmt>
+      </titleStmt>
+      <editionStmt>
+         <edition>First draft <date>May 2016</date></edition>
+      </editionStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+          <!-- Information about source from which the resource derives -->
+        </p>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+
+<charDecl>
+ <glyph xml:id="r1">
+  <glyphName>LATIN SMALL LETTER R WITH ONE FUNNY STROKE</glyphName>
+  <charProp>
+   <localName>entity</localName>
+   <value>r1</value>
+  </charProp>
+  <figure>
+   <graphic url="r1img.png"/>
+  </figure>
+ </glyph>
+ <glyph xml:id="r2">
+  <glyphName>LATIN SMALL LETTER R WITH TWO FUNNY STROKES</glyphName>
+  <charProp>
+   <localName>entity</localName>
+   <value>r2</value>
+  </charProp>
+  <figure>
+   <graphic url="r2img.png"/>
+  </figure>
+ </glyph>
+</charDecl>
+
+</encodingDesc>
+
+
+
+  </teiHeader>
+  <text xml:space="preserve" n="urn:cts:greekLit:tlg0059.tlg003.perseus-grc1">
+  <body>
+    <div type="section">
+      <head>Κρίτων</head>
+      <castList>
+        <castItem type="role">
+          <role xml:id="Σωκράτης">Σωκράτης</role>
+        </castItem>
+        <castItem type="role">
+          <role xml:id="Κρίτων">Κρίτων</role>
+        </castItem>
+      </castList>
+      <milestone n="43" unit="page"/>
+    </div>
+    <div type="section" n="43a">
+      <said who="#Σωκράτης"><milestone unit="page" n="17r"/>τί τηνικάδε ἀφῖξαι ὦ κρίτων. ἢ οὐ πρωῒ ἔτι ἐστί:</said>
+      <said who="#Κρίτων">πάνυ μὲν οὖν:</said>
+      <said who="#Σωκράτης">πηνίκα μάλιστα:</said>
+      <said who="#Κρίτων">ὄρθρος βαθύς:</said>
+      <said who="#Σωκράτης">θαυμάζω ὅπως <app loc="17r"><rdg>ἤθελέ σοι</rdg><rdg>ἠθέλησέ σοι</rdg></app> ὁ τοῦ δεσμωτηρίου φύλαξ ὑπακοῦσαι:</said>
+      <said who="#Κρίτων">συνήθης ἤδη μοι ἐστὶν ὦ <choice n="17r"><abbr>σώκϼα</abbr><expan>σώκρατες</expan></choice> · διὰ τὸ πολλάκις δεῦρο φοιτᾶιν· καί τι καὶ εὐεργέτηται ὑπʼ ἐμοῦ:</said>
+      <said who="#Σωκράτης">ἄρτι <choice n="17r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἥκεις. ἢ πάλαι:</said>
+      <said who="#Κρίτων">ἐπιεικῶς πάλαι:</said>
+      <said who="#Σωκράτης">εἶτα πῶς</said>
+    </div>
+    <div type="section" n="43b">
+        <said who="#Σωκράτης">οὐκ εὐθὺς <choice n="17r"><abbr>ἐπήγειρ ᷃´</abbr><expan>ἐπήγειράς</expan></choice> με· ἀλλὰ σιγηῖ παρακάθησαι:</said>
+        <said who="#Κρίτων">οὐ μὰ τὸν δία ὦ σώκρατες. οὐδʼ <hi n="17r">ἂν⸌</hi> αὐτὸς ἤθελον ἐν τοσαύτηι τὲ ἀγρυπνίαι <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> λύπηι εἶναι· ἀλλὰ <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> σοῦ πάλαι θαυμάζω. αἰσθανόμενος ὡς ἡδέως καθεύδεις. <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐπίτηδές σε οὐκ ἤγειρον. ἵνα ὡς ἥδιστα διάγηις. καὶ πολλάκις μὲν δή σε <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="17r"><abbr>πρότερ\</abbr><expan>πρότερον</expan></choice> ἐν παντὶ τωι βίωι ηὐδαιμόνισα τοῦ τρόπου·  πολὺ <choice n="17r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> μάλιστα ἐν τῆι νῦν παρεστώσηι συμφορᾶι ὡς ῥαιδίως αὐτὴν καὶ πράιως φέρεις:</said>
+      <said who="#Σωκράτης"><choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> γὰρ <hi n="17r">ἂν⸌</hi> ὦ κρίτων πλημμελὲς εἴη ἀγανακτεῖν τηλικοῦτον ὄντα εἰ δεῖ ἤδη τελευταῖν:</said>
+    </div>
+    <div type="section" n="43c">
+        <said who="#Κρίτων"><choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄλλοι ὦ σώκρατες τηλικοῦτοι ἐν τοιαύταις <choice n="17r"><abbr>συμφορ ͐ ͐῀</abbr><expan>συμφοραῖς</expan></choice> ἁλίσκονται·  ἀλλʼ οὐδὲν αὐτοῖς ἐπιλύεται ἡ ἡλικία·  τὸ μὴ οὐχὶ ἀγανακτεῖν τηῖ παρούσηι τύχηι:</said>
+        <said who="#Σωκράτης">ἔστι ταῦτα: ἀλλὰ τί δὴ οὕτω πρωῒ ἀφῖξαι:</said>
+        <said who="#Κρίτων">ἀγγελίαν ὦ σώκρατες φέρων χαλεπήν, οὐ σοί ὡς ἐμοὶ φαίνεται· ἀλλʼ ἐμοὶ <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοῖς σοῖς ἐπιτηδείοις πᾶσι, <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> χαλεπὴν καὶ βαρεῖανॱ ἣν ἐγώ ὡς ἐμοὶ δοκῶ ἐν τοῖς βαρύτατα <hi n="17r">ἂν⸌</hi> ἐνέγκαιμι:</said>
+      <said who="#Σωκράτης">τίνα ταύτην. ἢ τὸ πλοῖον ἀφῖκται ἐκ dήλου, οὗ δεῖ</said>
+    </div>
+    <div type="section" n="43d">
+        <said who="#Σωκράτης">ἀφικομένου τεθνάναι με:</said>
+        <said who="#Κρίτων">οὔτοι δὴ ἀφῖκται. ἀλλὰ δοκεῖ μέν μοι ἥξειν τήμερον.  ἐξ ὧν ἀπαγγέλλουσιν <choice n="17r"><abbr>ἥκον ͗¨</abbr><expan>ἥκοντές</expan></choice> τινὲς ἀπὸ σουνίου· <choice n="17r"><abbr>ς`</abbr><expan>καὶ</expan></choice> καταλιπόντες ἐκεῖ αὐτό. δῆλον οὖν ἐκ τούτων τῶν <milestone unit="page" n="17v"/>ἀγγέλων ὅτι ἥξει τήμερον. καὶ ἀνάγκη δὴ εἰς αὔριον ἔσται ὦ σώκρατες τὸν <choice n="17v"><abbr>βί\</abbr><expan>βίον</expan></choice> σε τελευτᾶν:</said>
+        <said who="#Σωκράτης">ἀλλʼ ὦ κρίτων τύχηι ἀγαθηῖ· εἰ ταύτηι τοῖς θεοῖς φίλον, ταύτηι ἔστω. οὐ μέντοι οἶμαι ἥξειν αὐτὸ τήμερον:</said>
+    </div>
+    <div type="section" n="44a">
+        <said who="#Κρίτων">πόθεν τοῦτο τεκμαίρηι:</said>
+        <said who="#Σωκράτης">ἐγώ σοι ἐρῶॱ τηῖ γάρ που ὑστεραίαι δεῖ με ἀποθνήσκειν. ἢ ηἷ <hi n="17v">ἂν⸌</hi> ἔλθηι τὸ πλοῖον: φασὶ γέ τοι δὴ οἱ τούτων κύριοι: οὐ τοίνυν τῆς ἐπιούσης ἡμέρας οἶμαι αὐτὸ ἥξειν· ἀλλὰ τῆς ἑτέρας. τεκμαίρομαι <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἔκ τινος ἐνυπνίου ὃ ἑώρακα ὀλίγον πρότερον ταύτης τῆς νυκτός. καὶ <choice n="17v"><abbr>κινδυνεύ ᷤ ᷤ</abbr><expan>κινδυνεύεις</expan></choice> ἐν καιρωῖ τινὶ οὐκ ἐγεῖραί με:</said>
+        <said who="#Κρίτων">ἦν <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> δὴ τί τὸ ἐνύπνιον:</said>
+      <said who="#Σωκράτης">ἐδόκει τίς μοι γυνὴ προσελθοῦσα καλὴ καὶ εὐειδής. λευκὰ ἱμάτια ἔχουσα· καλέσαι με</said>
+    </div>
+    <div type="section" n="44b">
+      <said who="#Σωκράτης"><choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> εἰπεῖνॱ ὦ σώκρατες.<cit>
+          <quote type="verse">
+              <l met="dactylic">ἤματί κεν τριτάτωι Φθίην ἐρίβωλον ἵκοιο:</l>
+          </quote>
+          <bibl n="Hom. Il. 9.363"/>
+        </cit>”</said>
+      <said who="#Κρίτων">ὡς ἄτοπον τὸ ἐνύπνιον ὦ σώκρατες:</said>
+      <said who="#Σωκράτης">ἐναργὲς μὲν οὖν ὡς ἐμοὶ δοκεῖ ὦ κρίτων:</said>
+      <said who="#Κρίτων">λίαν γε ὡς ἔοικεν. ἀλλʼ ὦ δαιμόνιε <choice n="17v"><abbr>σώκρατ ͗</abbr><expan>σώκρατες</expan></choice> · ἔτι <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> νῦν ἐμοὶ πείθου <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> σώθητι. ὡς ἐμοὶ ἐὰν σὺ ἀποθάνῃς, οὐ μία συμφορά ἐστιν. ἀλλὰ χωρὶς μέν σοῦ ἐστερῆσθαι τοιούτου ἐπιτηδείου· οἷον ἐγὼ οὐδένα μή ποτε εὑρήσω. ἔτι <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> πολλοῖς δόξω οἳ ἐμὲ <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> σὲ μὴ σαφῶς ἴσασιν, ὡς οἷός</said>
+    </div>
+    <div type="section" n="44c">
+      <said who="#Κρίτων">τε ὤν σε σῶζειν· εἰ ἤθελον <app loc="17v"><rdg>σῶζειν</rdg><rdg>ἀναλίσκειν</rdg></app> χρήματα ἀμελῆσαιॱ καίτοι τίς <hi n="17v">ἂν⸌</hi> αἰσχίων εἴη ταύτης δόξα· ἢ δοκεῖν χρήματα περὶ πλείονος <choice n="17v"><abbr>ποιεῖσ℥</abbr><expan>ποιεῖσθαι</expan></choice> ἢ φίλους. οὐ γὰρ πείσονται οἱ πολλοὶ ὡς σὺ <app loc="17v"><rdg>αυτοῖς</rdg><rdg>αὐτὸς</rdg></app> οὐκ ἠθέλησας ἀπιέναι ἐνθένδε ἡμῶν <choice n="17v"><abbr>προθυμουμ͡έν</abbr><expan>προθυμουμένων</expan></choice> :</said>
+      <said who="#Σωκράτης">ἀλλὰ τί <app loc="17v"><rdg>ὑμῖν</rdg><rdg>ἡμῖν</rdg></app> ὦ μακάριε κρίτων οὕτω τῆς τῶν πολλῶν δόξης μέλει· οἱ γὰρ ἐπιεικέστατοι ὧν μᾶλλον ἄξιον φροντίζειν· ἡγήσονται αὐτὰ οὕτω πεπρᾶχθαι ὥσπερ <hi n="17v">ἂν⸌</hi> πραχθῆι:</said>
+      <said who="#Κρίτων">ἀλλʼ ὁρᾶις δὴ ὅτι ἀνάγκη ὦ σώκρατες·</said>
+    </div>
+    <div type="section" n="44d">
+        <said who="#Κρίτων">καὶ τῆς τῶν πολλῶν δόξης μέλειν· αὐτὰ <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> δῆλα τὰ παρόντα νυνὶ. ὅτι οἷοί τε εἰσὶν οἱ πολλοὶ οὐ τὰ σμικρότατα τῶν κακῶν <choice n="17v"><abbr>ἐξεργάζεσ℥</abbr><expan>ἐξεργάζεσθαι</expan></choice> · ἀλλὰ  σχεδὸν τὰ μέγιστα· ἐάν τις ἐν ἀυτοῖς διαβεβλημένος ηἷ:</said>
+        <said who="#Σωκράτης">εἰ γὰρ ὤφελον ὦ κρίτων οἷοί τε εἶναι οἱ πολλοὶ τὰ μέγιστα κακὰ <choice n="17v"><abbr>ἐξεργάζεσ℥</abbr><expan>ἐξεργάζεσθαι</expan></choice>ॱ ἵνα οἷοί τʼ ἦσαν καὶ ἀγαθὰ τὰ μέγιστα· <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> καλῶς <hi n="17v">ἂν⸌</hi> εἶχε· νῦν <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> οὐδέτερα οἷοί τε· οὔτε γὰρ φρόνιμον· οὔτε ἄφρονα <app loc="17v"><rdg>δ˟</rdg><rdg>δυνατοὶ</rdg></app> ποιῆσαι· ποιοῦσι <choice n="17v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τοῦτο· ὅτι <hi n="17v">ἂν⸌</hi> τύχωσι:</said>
+      <said who="#Κρίτων">ταῦτα μὲν δὴ οὕτως</said>
+    </div>
+    <div type="section" n="44e">
+      <said who="#Κρίτων">ἐχέτωॱ τάδε δέ ὦ σώκρατες εἰπέ μοι· ἆρά γε μὴ ἐμοῦ προμηθῆ καὶ τῶν ἄλλων ἐπιτηδείων, μὴ ἐὰν σὺ ἐνθένδε ἐξέλθηις οἱ συκοφάνται ἡμῖν πράγματα παρέχωσιν· ὡς σὲ ἐνθένδε ἐκκλέψασι· καὶ ἀναγκασθῶμεν ἢ καὶ πᾶσαν τὴν οὐσίαν ἀποβαλεῖν. ἢ συχνὰ χρήματα· ἢ <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄλλό τι πρὸς τούτοις παθεῖν;
+            εἰ γάρ τι τοιοῦτον</said>
+    </div>
+    <div type="section" n="45a">
+        <said who="#Κρίτων">φοβηῖ. ἔασον αὐτὸ χαίρειν· ἡμεῖς γάρ που δίκαιοι ἐσμὲν· σώσαντές σε κινδυνεύειν τοῦτον τὸν κίνδυνον. <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐὰν δέηι ἔτι τούτου μείζω· ἀλλʼ ἐμοὶ πείθου· καὶ μὴ ἄλλως ποίει:</said>
+        <said who="#Σωκράτης">καὶ ταῦτα προμηθοῦμαι ὦ <choice><abbr>κρίτ͠</abbr><expan>κρίτων</expan></choice> <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄλλα πολλά:</said>
+      <said who="#Κρίτων">μή τοίνυν ταῦτα φοβοῦ. καὶ γὰρ οὐδὲ πολὺ τἀργύριόν ἐστιν. ὃ θέλουσι λαβόντες τινὲς σῶσαί σε <choice n="17v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐξαγαγεῖν ἐνθένδε. ἔπειτα <milestone unit="page" n="18r"/> οὐχ ὁραῖς. τούτους τοὺς συκοφάντας. ὡς εὐτελεῖς. <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐδὲν <hi n="18r">ἂν⸌</hi> δέοι ἐπʼ <choice n="18r"><abbr>αὐτƴ</abbr><expan>αὐτοὺς</expan></choice> πολλοῦ ἀργυρίου· σοὶ <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ὑπάρχει μὲν</said>
+    </div>
+    <div type="section" n="45b">
+      <said who="#Κρίτων">τὰ ἐμὰ χρήματα· ὡς ἐγὼ οἶμαι, ἱκανά· ἔπειτα <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> εἴ τι ἐμοῦ κηδόμενος. οὐκ οἴει δεῖν ἀναλίσκειν τἀ εμά, ξένοι οὗτοι ἐνθάδε ἕτοιμοι ἀναλίσκειν· εἷς <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> κεκόμικεν ἐπʼ αὐτὸ τοῦτο <choice n="18r"><abbr>ἀργύρι\</abbr><expan>ἀργύριον</expan></choice> ἱκανόν. σιμμίας ὁ Θηβαῖος. ἕτοιμος <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <choice><abbr>ς`</abbr><expan>καὶ</expan></choice> κέβης <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄλλοι πολλοὶ πάνυ. ὥστε ὅπερ λέγω· μήτε ταῦτα φοβούμενος ἀποκάμηις σῶσαι σαυτὸν· μήτε ὃ ἔλεγες ἐν τωῖ δικαστηρίωι δυσχερές σοι γενέσθω· ὅτι οὐκ <hi n="18r">ἂν⸌</hi> ἔχοις ἐξελθὼν ὅτι χρωῖο σαυτωῖ· πολλαχοῦ
+            μὲν γὰρ <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄλλοσε ὅποι <hi n="18r">ἂν⸌</hi> ἀφίκηι· ἀγαπήσουσί</said>
+    </div>
+    <div type="section" n="45c">
+      <said who="#Κρίτων">σε. ἐὰν <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> βούληι· εἰς Θετταλίαν ἰέναι· εἰσὶν ἐμοὶ ἐκεῖ ξένοι οἵ σε περὶ πολλοῦ ποιήσονται καὶ ἀσφάλειάν σοι παρέξονται. ὥστε σε μηδένα λυπεῖν τῶν κατὰ Θετταλίαν. ἔτι <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ὦ σώκρατες. <choice n="18r"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> δίκαιόν μοι δοκεῖς ἐπιχειρεῖν πρᾶγμα σαυτὸν προδοῦναι ἐξὸν σωθῆναι. καὶ τοιαῦτα σπεύδεις περὶ σαυτὸν γενέσθαι· ἅπερ <hi n="18r">ἂν⸌</hi> <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οἱ ἐχθροί σου σπεύσαιέν τε <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἔσπευσαν. σὲ διαφθεῖραι βουλόμενοι· πρὸς <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τούτοις· <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοὺς ὑεῖς τοὺς σαυτοῦ ἔμοιγε δοκεῖς προδιδόναι· οὕς σοι ἐξὸν καὶ ἐκθρέψαι <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice></said>
+    </div>
+    <div type="section" n="45d">
+      <said who="#Κρίτων">ἐκπαιδεῦσαι οἰχήσηι καταλιπών. καὶ τὸ σὸν <choice n="18r"><abbr>μέρͦ</abbr><expan>μέρος</expan></choice> ὅτι <hi n="18r">ἂν⸌</hi> τύχωσι τοῦτο πράξουσι· τεύξονται <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ὡς τὸ εἰκός τοιούτων. οἷάπερ εἴωθε <choice n="18r"><abbr>γίγνεσ℥</abbr><expan>γίγνεσθαι</expan></choice> ἐν ταῖς ὀρφανείαις περὶ τοὺς ὀρφανούς. ἢ γὰρ οὐ χρὴν <choice n="18r"><abbr>ποιεῖσ℥</abbr><expan>ποιεῖσθαι</expan></choice> παῖδας, ἢ συνδιαταλαιπωρεῖν καὶ τρέφοντα <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> παιδεύοντα· σὺ δέ μοι δοκεῖς τὰ ῥαθυμότατα αἱρεῖσθαι· χρὴ <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἅπερ <hi n="18r">ἂν⸌</hi> ἀνὴρ ἀγαθὸς καὶ ἀνδρεῖος ἕλοιτο, ταῦτα αἱρεῖσθαι· φάσκοντά γε δὴ ἀρετῆς διὰ παντὸς τοῦ βίου ἐπιμελεῖσθαιॱ ὡς ἔγωγε <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὑπὲρ σοῦ· <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὑπὲρ</said>
+    </div>
+    <div type="section" n="45e">
+      <said who="#Κρίτων">ἡμῶν τῶν σῶν ἐπιτηδείων αἰσχύνομαι· μὴ δόξηι ἅπαν τὸ πρᾶγμα τὸ περὶ σὲ. ἀνανδρίαι τινὶ τηῖ ἡμετέραι πεπρᾶχθαιॱ καὶ ἡ <choice n="18r"><abbr>εἴσοδͦ</abbr><expan>εἴσοδος</expan></choice> τῆς δίκης εἰς τὸ δικαστήριον ὡς εἰσῆλθες. ἐξὸν μὴ εἰσελθεῖν. καὶ αὐτὸς ὁ ἀγὼν τῆς δίκης ὡς ἐγένετοॱ καὶ τὸ τελευταῖον δὴ τουτὶ <choice n="18r"><abbr>ὥσπρˤ</abbr><expan>ὥσπερ</expan></choice> κατάγελως τῆς πράξεως κακία τινὶ <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀνανδρίαι τηῖ ἡμετέραῖ διαπεφευγέναι</said>
+    </div>
+    <div type="section" n="46a">
+        <said who="#Κρίτων">ἡμᾶς δοκεῖν· οἵτινές σε οὐκ ἐσώσαμεν. <choice n="18r"><abbr>᾽Ɣ𐅀`</abbr><expan>οὐδὲ</expan></choice> σὺ σαυτόν. οἷόν τε ὂν <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> δυνατὸν, εἴ τι καὶ σμικρὸν ἡμῶν ὄφελος ἦν. ταῦτα οὖν ὦ σώκρατες. ὅρα μὴ ἅμα τωῖ κακωῖ <choice n="18r"><abbr>ς`</abbr><expan>καὶ</expan></choice> αἰσχρὰ ηἶ σοί τε καὶ <choice n="18r"><abbr>ἡμ⌠¨῀</abbr><expan>ἡμῖν</expan></choice> ἀλλὰ βουλεύου. μᾶλλον <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <choice n="18r"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> <choice n="18r"><abbr>βουλεύεσ℥</abbr><expan>βουλεύεσθαι</expan></choice> ἔτι ὥρα. ἀλλὰ βεβουλεῦσθαι· μία <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> βουλή· τῆς γὰρ ἐπιούσης νυκτὸς πάντα ταῦτα δεῖ πεπρᾶχθαι· εἰ <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> περιμενοῦμενॱ ἀδύνατον· καὶ οὐκέτι οἷόν τε· ἀλλὰ παντὶ τρόπωι ὦ σώκρατες. πείθου μοι· καὶ μηδαμῶς ἄλλως ποίει:</said>
+      <said who="#Σωκράτης">ὦ</said>
+    </div>
+    <div type="section" n="46b">
+      <said who="#Σωκράτης">φίλε <choice n="18r"><abbr>κρίτ͠</abbr><expan>κρίτων</expan></choice> ἡ προθυμία σου πολλοῦ ἀξία. εἰ μετά τινος ὀρθότητος εἴη· εἰ <choice n="18r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> μή. ὅσω μείζων· τοσούτωι χαλεπωτέρα. σκοπεῖσθαι οὖν χρὴ ἡμᾶς. εἴτε ταῦτα πρακτέον. εἴτε μή· ὡς ἐγὼ οὐ μόνον νῦν· ἀλλὰ καὶ ἀεὶ τοιοῦτος. οἷος τῶν ἐμῶν μηδενὶ ἄλλωι <choice n="18r"><abbr>πείθεσ℥</abbr><expan>πείθεσθαι</expan></choice>, ἢ τῷ λόγωι· ὃς ἄν μοι λογιζομένωι βέλτιστος φαίνηται· τοὺς δὴ λόγους οὓς ἐν τωῖ ἔμπροσθεν ἔλεγον. οὐ δύναμαι <milestone unit="page" n="18v"/>νῦν ἐκβαλεῖν· ἐπειδή μοι ἥδε ἡ τύχη γέγονεν· ἀλλὰ σχεδόν τι ὅμοιοι φαίνονταί μοι·
+            <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοὺς αὐτοὺς πρεσβεύω</said>
+    </div>
+    <div type="section" n="46c">
+        <said who="#Σωκράτης"><choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τιμῶ οὕσπερ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> πρότερον· ὧν ἐὰν μὴ βελτίω ἔχωμεν λέγειν ἐν τωῖ παρόντιॱ εὖ ἴσθι ὅτι οὐ μή σοι συγχωρήσω. οὐδʼ ἂν πλείω τῶν νῦν παρόντων ἡ τῶν πολλῶν δύναμις: ὥσπερ παῖδας ἡμᾶς μορμολύττηται δεσμοὺς <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> θανάτους ἐπιπέμπουσα· <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> χρημάτων ἀφαιρέσεις· πῶς οὖν <hi n="18v">ἂν⸌</hi> μετριώτατα σκοποίμεθα αὐτά· εἰ πρῶτον μὲν τοῦτον τὸν λόγον ἀναλάβοιμεν· ὃν σὺ λέγεις περὶ τῶν δοξῶνॱ πότερον· καλῶς ἐλέγετο ἑκάστοτε ἢ οὔ·
+            ὅτι ταῖς <hi n="18v">μὲν⸌</hi> . δεῖ τῶν δοξῶν προσέχειν τὸν νοῦν·</said>
+    </div>
+    <div type="section" n="46d">
+      <said who="#Σωκράτης">ταῖς <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> οὔ· ἢ πρὶν μὲν ἐμὲ δεῖν ἀποθνήσκειν καλῶς ἐλέγετο, νῦν <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <app loc="18v"><rdg>κά<gap quantity="2" unit="chars" reason="illegible"/></rdg><rdg><choice><abbr>ϰ ᷀´δηλ ͦ</abbr><expan>κατάδηλος</expan></choice></rdg></app> ἄρα ἐγένετο· ὅτι ἄλλως ἕνεκα λόγου ἐλέγετοॱ ἦν <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> παιδιὰ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> φλυαρία ὡς <choice n="18v"><abbr>ἀληθ≀῀</abbr><expan>ἀληθῶς</expan></choice> . ἐπιθυμῶ δʼ ἔγωγε ἐπισκέψασθαι ὦ kρίτων κοινηῖ μετὰ σοῦ. εἴ τι μοι ἀλλοιότερος φανεῖται· ἐπειδὴ ὦδε ἔχω, ἢ ὁ αὐτός· καὶ ἐάσομεν χαίρειν, ἢ πεισόμεθα αὐτῶι· ἐλέγετο δέ πως ὡς ἐγῶιμαι ἑκάστοτε ὧδε ὑπὸ τῶν οἰομένων <app loc="18v"><rdg>τί</rdg></app> λέγειν· ὥσπερ νυνδὴ ἐγὼ ἔλεγον. ὅτι τῶν δοξῶν· ἃς οἱ <choice n="18v"><abbr>ἄν ͠οι</abbr><expan>ἄνθρωποι</expan></choice>
+            δοξάζουσι· δέοι τὰς <hi n="18v">μὲν⸌</hi></said>
+    </div>
+    <div type="section" n="46e">
+      <said who="#Σωκράτης">περὶ πολλοῦ ποιεῖσθαι. τὰς <hi n="18v">δὲ⸌</hi> μή. τοῦτο πρὸς <choice n="18v"><abbr>θε ͡῀</abbr><expan>θεῶν</expan></choice> ὦ κρίτων οὐ δοκεῖ καλῶς σοι λέγεσθαι; σὺ γάρ ὅσα γε τἀνθρώπεια ἐκτὸς εἶ τοῦ μέλλειν ἀποθνῄσκειν</said>
+    </div>
+    <div type="section" n="47a">
+        <said who="#Σωκράτης">αὔριον· καὶ οὐκ ἄν σε παρακρούοι ἡ παροῦσα συμφοράॱ σκόπει δή· οὐχ ἱκανῶς δοκεῖ σοι λέγεσθαι. ὅτι οὐ πάσας χρὴ τὰς δόξας τῶν <choice n="18v"><abbr>ἀν ͠´ων</abbr><expan>ἀνθρώπων</expan></choice> τιμᾶν· ἀλλὰ τὰς μέν, τὰς δʼ οὔ; <choice n="18v"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> πάντων. ἀλλὰ τῶν μέν, τῶν δʼ οὔ. τί φηὶς ταῦτα οὐχὶ καλῶς λέγεται ̦:</said>
+        <said who="#Κρίτων">καλῶς:</said>
+      <said who="#Σωκράτης">οὐκοῦν τὰς μὲν χρηστὰς τιμαῖν· τὰς <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> πονηρὰς μή ̦:</said>
+      <said who="#Κρίτων">ναί:</said>
+      <said who="#Σωκράτης">χρησταὶ <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> οὐχ αἱ τῶν φρονίμων· πονηραὶ <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> αἱ τῶν ἀφρόνων:</said>
+      <said who="#Κρίτων">πῶς δʼ οὔ:</said>
+      <said who="#Σωκράτης">φέρε δὴ πῶς αὖ τὰ τοιαῦτα ἐλέγετοॱ γυμναζόμενος</said>
+    </div>
+    <div type="section" n="47b">
+        <said who="#Σωκράτης">ἀνὴρ καὶ τοῦτο πράττων· πότερον παντὸς ἀνδρὸς ἐπαίνωι καὶ ψόγωι τὸν νοῦν προσέχει, ἢ ἑνὸς μόνου ἐκείνου ὃς <hi n="18v">ἂν⸌</hi> τυγχάνηι ἰατρὸς ἢ παιδοτρίβης ὤν:</said>
+        <said who="#Κρίτων">ἑνὸς μόνου:</said>
+        <said who="#Σωκράτης">οὐκοῦν φοβεῖσθαι χρὴ τοὺς ψόγους <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="18v"><abbr>ἀσπάζεσ℥</abbr><expan>ἀσπάζεσθαι</expan></choice> τοὺς ἐπαίνους. τοὺς τοῦ ἑνὸς ἐκείνου. ἀλλὰ μὴ τοὺς τῶν πολλῶν:</said>
+        <said who="#Κρίτων">δῆλα δή:</said>
+        <said who="#Σωκράτης">ταύτη ἄρα αὐτωῖ πρακτέον <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> γυμναστέον καὶ ἐδεστέον γε <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ποτέον· ηἷ <hi n="18v">ἂν⸌</hi> τῶι ἑνὶ δοκηῖ· τωῖ ἐπιστάτηι <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐπαΐοντι μᾶλλονॱ ἢ ηἷ ξύμπασι τοῖς ἄλλοις:</said>
+        <said who="#Κρίτων">ἔστι ταῦτα:</said>
+      <said who="#Σωκράτης">εἶεν· ἀπειθήσας <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τωῖ ἑνὶ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀτιμάσας</said>
+    </div>
+    <div type="section" n="47c">
+      <said who="#Σωκράτης">αὐτοῦ τὴν δόξανॱ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοὺς ἐπαίνους. τιμήσας <choice n="18v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τοὺς τῶν πολλῶν καὶ μηδὲν ἐπαϊόντων· ἆρα οὐδὲν κακὸν πείσεται ̦:</said>
+      <said who="#Κρίτων">πῶς γὰρ οὔ:</said>
+      <said who="#Σωκράτης">τί δʼ ἔστι τὸ κακὸν τοῦτο· <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ποῖ τείνει· <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> εἰς τί τῶν τοῦ ἀπειθοῦντος:</said>
+      <said who="#Κρίτων">δῆλον ὅτι εἰς τὸ σῶμα. τοῦτο <choice n="18v"><abbr>γ⃥`</abbr><expan>γὰρ</expan></choice> διόλλυσι:</said>
+      <said who="#Σωκράτης">καλῶς λέγεις: οὐκοῦν καὶ τἆλλα ὦ κρίτων οὕτως· ἵνα μὴ πάντα διΐωμενॱ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> δὴ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> περὶ τῶν δικαίων <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀδίκων καὶ αἰσχρῶν καὶ <choice n="18v"><abbr>καλ ͡῀</abbr><expan>καλῶν</expan></choice> ॱ <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀγαθῶν καὶ κακῶν· περὶ ὧν νῦν ἡμῖν ἐστιν ἡ βουλή. πότερον τηῖ τῶν πολλῶν δόξηι δεῖ ἡμᾶς</said>
+    </div>
+    <div type="section" n="47d">
+        <said who="#Σωκράτης">ἕπεσθαι <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> φοβεῖσθαι <app loc="18v"><rdg>ταυτὴν</rdg><rdg>ταύτην</rdg></app> , ἢ τηῖ τοῦ ἑνὸς. εἴ τις ἐστὶν ἐπαΐων ὃν δεῖ καὶ <choice n="18v"><abbr>αἰσχύνεσ℥</abbr><expan>αἰσχύνεσθαι</expan></choice> <choice n="18v"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="18v"><abbr>φοβεῖσ℥</abbr><expan>φοβεῖσθαι</expan></choice> μᾶλλον·  ἢ σύμπαντας·  τοὺς ἄλλους·  ὧι εἰ μὴ ἀκολουθήσομεν διαφθεροῦμεν ἐκεῖνο καὶ <choice n="18v"><abbr>λωβησόμ ̡θ</abbr><expan>λωβησόμεθα</expan></choice> <milestone unit="page" n="19r"/>ὃ τῶι μὲν δικαίω βέλτιον ἐγίγνετο· τῶι <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἀδίκωι ἀπώλλυτο· ἢ οὐδέν ἐστι τοῦτο:</said>
+        <said who="#Κρίτων">οἶμαι ἔγωγε ὦ σώκρατες:</said>
+      <said who="#Σωκράτης">φέρε δή ἐὰν τὸ ὑπὸ τοῦ ὑγιεινοῦ μὲν βέλτιον γιγνόμενον. ὑπὸ τοῦ νοσώδους <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> διαφθειρόμενον διολέσωμεν· πειθόμενοι μὴ τῆι τῶν ἐπαϊόντων δόξηι· ἆρα βιωτὸν ἡμῖν ἐστι</said>
+    </div>
+    <div type="section" n="47e">
+        <said who="#Σωκράτης">διεφθαρμένου αὐτοῦ. ἔστι δέ που τοῦτο σῶμα; ἢ ὀυχί:</said>
+        <said who="#Κρίτων">ναί:</said>
+      <said who="#Σωκράτης">ἆρʼ οὖν βιωτὸν ἡμῖν ἐστι μετὰ μοχθηροῦ καὶ διεφθαρμένου σώματος;</said>
+      <said who="#Κρίτων">οὐδαμῶς:</said>
+      <said who="#Σωκράτης">ἀλλὰ μετʼ ἐκείνου <choice n="19r"><abbr>῎∈</abbr><expan>ἄρα</expan></choice> ἡμῖν βιωτὸν διεφθαρμένου· τὸ ἄδικον μὲν λωβᾶται. τὸ <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> <choice n="19r"><abbr>δίκαι\</abbr><expan>δίκαιον</expan></choice> ὀνίνησιν· ἢ φαυλότερον ἡγούμεθα εἶναι τοῦ σώματος ἐκεῖνο· <app loc="19r"><rdg>ὅτί</rdg><rdg> ὃτί</rdg></app> ποτʼ ἐστὶ τῶν</said>
+    </div>
+    <div type="section" n="48a">
+        <said who="#Σωκράτης">ἡμετέρων· περὶ ὃ ἥ τε ἀδικία καὶ ἡ δικαιοσύνη ἐστίν ̦:</said>
+      <said who="#Κρίτων">οὐδαμῶς:</said>
+      <said who="#Σωκράτης">ἀλλὰ τιμιώτερον;</said>
+      <said who="#Κρίτων">πολύ γε:</said>
+      <said who="#Σωκράτης">οὐκ ἄρα ὦ βέλτιστε πάνυ ἡμῖν οὕτω φροντιστέον ὅτί ἐροῦσιν οἱ πολλοὶ ἡμᾶς· ἀλλʼ ὅτι ὁ ἐπαΐων περὶ τῶν <choice n="19r"><abbr>δικαί ͡ </abbr><expan>δικαίων</expan></choice> <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀδίκων ὁ εἷς. καὶ ἀυτὴ ἡ ἀλήθεια· ὥστε πρῶτον μὲν ταύτηι ὀυκ <choice n="19r"><abbr>ὀρθ≀῀</abbr><expan>ὀρθῶς</expan></choice> εἰσηγηῖ· εἰσηγούμενος τῆς τῶν πολλῶν δόξης δεῖν ἡμᾶς φροντίζειν περὶ τῶν δικαίων καὶ καλῶν καὶ ἀγαθῶν καὶ τῶν ἐναντίων. ἀλλὰ μὲν δὴ φαίη γʼ ἄν τις· οἷοι τέ γʼ εἰσιν ἡμᾶς οἱ πολλοὶ ἀποκτιννύναι;</said>
+    </div>
+    <div type="section" n="48b">
+        <said who="#Κρίτων">δηλα δὴ <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ταῦτα φαίη γὰρ <hi n="19r">ἂν⸌</hi> ὦ σώκρατες: ἀληθῆ λέγεις.</said>
+        <said who="#Σωκράτης">ἀλλʼ ὦ θαυμάσιε οὗτός τε ὁ λόγος ὃν διεληλύθαμεν ἔμοιγε δοκεῖ ἔτι ὅμοιος εἶναι <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> πρότερος <app loc="19r"><rdg>τῶ</rdg><rdg><choice><abbr>ς`</abbr><expan>καὶ</expan><abbr>πρότερ\</abbr><expan>πρότερον</expan></choice></rdg></app> . καὶ τόνδε <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> αὖ σκόπει εἰ ἔτι μένει ἡμῖν ἢ ὄυ· ὅτι ὀυ τὸ ζῆν περὶ πλείστου ποιητέον· ἀλλὰ τὸ εὖ ζῆν:</said>
+        <said who="#Κρίτων">ἀλλὰ μένει:</said>
+        <said who="#Σωκράτης">τὸ <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> εὖ <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="19r"><abbr>καλ≀῀</abbr><expan>καλῶς</expan></choice> <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> δικάιως ὅτι ταὐτόν ἐστι μένει, ἢ οὐ μένει:</said>
+        <said who="#Κρίτων">μένει:</said>
+      <said who="#Σωκράτης">οὐκοῦν ἐκ τῶν ὁμολογουμένων τοῦτο σκεπτέον· πότερον δίκαιον ἐμὲ ἐνθένδε πειρᾶσθαι ἐξιέναι· μὴ ἀφιέντων</said>
+    </div>
+    <div type="section" n="48c">
+      <said who="#Σωκράτης">ἀθηνάιων,ἢ ὀυ δίκαιον· <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐὰν μὲν φαίνηται δίκαιον, πειρώμεθα· εἰ <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> μή, ἐῶμεν· ἃς <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> σὺ λέγεις τὰς σκέψεις περί τε χρημάτων ἀναλώσεως. <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> δόξης· <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> πάιδων τροφῆς, μὴ ὡς ἀληθῶς ταῦτα ὦ κρίτων. σκέμματα ἦ τῶν ῥαιδίως ἀποκτιννύντων. καὶ ἀναβιωσκομένων γʼ <hi n="19r">ἂν⸌</hi> εἰ οἷοί τε ἦσαν. οὐδενὶ ξὺν νωῖ τούτων τῶν πολλῶν· ἡμῖν δʼ ἐπειδὴ ὁ λόγος οὕτως αἱρεῖ. μὴ οὐδὲν ἄλλο σκεπτέον ηἶ ἢ ὅπερ νυνδὴ ἐλέγομεν· πότερον δίκαια πράξομεν· <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> χρήματα <choice n="19r"><abbr>τελοῦν ͗¨</abbr><expan>τελοῦντες</expan></choice> τούτοις τοῖς ἐμὲ ἐνθένδε</said>
+    </div>
+    <div type="section" n="48d">
+        <said who="#Σωκράτης">ἐξάξουσι <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> χάριτας· <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀυτοὶ ἐξάγοντές τε <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐξαγόμενοι, ἢ τηῖ ἀληθείαι ἀδικήσομεν πάντα ταῦτα ποιοῦντες. κἂν φαινώμεθα <app loc="19r"><rdg>ἄδικα</rdg></app> αὐτὰ ἐργαζόμενοι μὴ ὀυ δέηι <choice n="19r"><abbr>ὑπολογίζεσ℥</abbr><expan>ὑπολογίζεσθαι</expan></choice> · ὄυτʼ εἰ ἀποθνήσκειν δεῖ παραμένοντας <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡσυχίαν ἄγοντας· οὔτε ἄλλο ὁτι οῦν πάσχειν πρὸ τοῦ ἀδικεῖν:</said>
+        <said who="#Κρίτων">καλῶς μέν μοι δοκεῖς λέγειν ὦ σώκρατες· ὅρα <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τί δρῶμεν:</said>
+      <said who="#Σωκράτης">σκοπῶμεν ὦ ἀγαθέ κοινηῖ· καὶ εἴ πηι ἔχεις ἀντιλέγειν ἐμοῦ λέγοντος, ἀντίλεγε· καί σοι πείσομαι· εἰ <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice></said>
+    </div>
+    <div type="section" n="48e">
+      <said who="#Σωκράτης">μή, παῦσαι ἤδη ὦ μακάριε πολλάκις μοι λέγων τὸν ἀυτὸν λόγον· ὡς χρὴ ἐνθένδε. ἀκόντων άθηναίων ἐμὲ ἀπιέναι· ὡς ἐγὼ περὶ πολλοῦ ποιοῦμαι πείσας σε ταῦτα πράττειν· ἀλλὰ μὴ ἄκοντος. ὅρα <choice n="19r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> δὴ τῆς <choice n="19r"><abbr>σκέψε≀</abbr><expan>σκέψεως</expan></choice> <choice n="19r"><abbr>τ⌉`</abbr><expan>τὴν</expan></choice> ἀρχὴν ἐάν σοι ἱκανῶς λέγηται· <choice n="19r"><abbr>ς`</abbr><expan>καὶ</expan></choice> πειρῶ <choice n="19r"><abbr>ἀποκρίνεσ℥</abbr><expan>ἀποκρίνεσθαι</expan></choice> τὸ</said>
+    </div>
+    <div type="section" n="49a">
+        <said who="#Σωκράτης">ἐρωτώμενον <milestone unit="page" n="19v"/>ηἶ <hi n="19v">ἂν⸌</hi> μάλιστα <app loc="19v"><rdg>ἡι</rdg><rdg>οἴηι</rdg></app> :</said>
+        <said who="#Κρίτων">ἀλλὰ πειράσομαι:</said>
+      <said who="#Σωκράτης">οὐδενὶ τρόπωι φαμὲν ἑκόντας ἀδικητέον εἶναι, ἢ τινὶ μὲν ἀδικητέον τρόπωι· τινὶ <choice n="19v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> οὔ· ἢ οὐδαμῶς τό γε ἀδικεῖν ὄυτε ἀγαθὸν ὄυτε καλόν ὡς πολλάκις ἡμῖν καὶ ἐν τωῖ ἔμπροσθεν χρόνωι ὡμολογήθη· ὅπερ <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἄρτι <app loc="19v"><rdg>ἐλέγετο</rdg><rdg>ἐγένετο</rdg></app> · ἢ πᾶσαι ἡμῖν ἐκεῖναι αἱ πρόσθεν ὁμολογίαι ἐν ταῖσδε ταῖς ὀλίγαις ἡμέραις ἐκκεχυμέναι εἰσὶ· καὶ πάλαι ὦ κρίτων ἄρα τηλικοίδε γέροντες ἄνδρες πρὸς ἀλλήλους σπουδηῖ διαλεγόμενοι</said>
+    </div>
+    <div type="section" n="49b">
+        <said who="#Σωκράτης">ἐλάθομεν ἡμᾶς αὐτοὺς παίδων οὐδὲν διαφέροντες. ἢ παντὸς μᾶλλον οὕτως ἔχει ὥσπερ τότε ἡμῖν ἐλέγετο· εἴτε φασὶν οἱ πολλοὶ εἴτε μή <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> εἴτε δεῖ ἡμᾶς ἔτι τῶνδε χαλεπώτερα πάσχειν. εἴτε καὶ πραιότερα· ὅμως τό γε ἀδικεῖν τῶι ἀδικοῦντι· καὶ κακὸν καὶ αἰσχρὸν τυγχάνει ὂν παντὶ τρόπωι φαμὲν, ἢ οὔ:</said>
+      <said who="#Κρίτων">φαμέν:</said>
+      <said who="#Σωκράτης">οὐδαμῶς ἄρα δεῖ ἀδικεῖν:̦</said>
+      <said who="#Κρίτων">οὐ δῆτα:</said>
+      <said who="#Σωκράτης"><choice n="19v"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> ἀδικούμενον ἄρα ἀνταδικεῖν ὡς οἱ πολλοὶ οἴονται ἐπειδή γε οὐδαμῶς δεῖ ἀδικεῖν:</said>
+    </div>
+    <div type="section" n="49c">
+        <said who="#Κρίτων">οὐ φαίνεται:</said>
+        <said who="#Σωκράτης">τί δὲ δὴ κακουργεῖν δεῖ ὦ κρίτων· ἢ οὔ:</said>
+        <said who="#Κρίτων">οὐ δεῖ δήπου ὦ σώκρατες:</said>
+        <said who="#Σωκράτης">τί <choice n="19v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἀντικακουργεῖν κακῶς πάσχοντα ὡς οἱ πολλοί φασι δίκαιον ἢ οὐ δίκαιον:</said>
+        <said who="#Κρίτων"><choice n="19v"><abbr>οὐδαμ≀῀</abbr><expan>οὐδαμῶς</expan></choice> :</said>
+        <said who="#Σωκράτης">τὸ γάρ που κακῶς ποιεῖν <choice n="19v"><abbr>ἀν ͠´ους</abbr><expan>ἀνθρώπους</expan></choice> τοῦ ἀδικεῖν οὐδὲν διαφέρει:</said>
+        <said who="#Κρίτων">ἀληθῆ λέγεις:</said>
+      <said who="#Σωκράτης">οὔτε ἄρα ἀνταδικεῖν δεῖ οὔτε κακῶς ποιεῖν οὐδένα <choice n="19v"><abbr>ἀν ͠´ων</abbr><expan>ἀνθρώπων</expan></choice> οὐδʼ ἂν ὁτιοῦν πάσχηι ὑπʼ αὐτῶν. καὶ ὅρα ὦ κρίτων ταῦτα ὁμολογῶν· ὅπως μὴ παρὰ</said>
+    </div>
+    <div type="section" n="49d">
+      <said who="#Σωκράτης">δόξαν ὁμολογηῖς. οἶδα γὰρ ὅτι ὀλίγοις τισὶ ταῦτα καὶ δοκεῖ <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> δόξει· οἷς οὖν οὕτω δέδοκται· <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> οἷς μὴ, <choice n="19v"><abbr>τούτ ͡ ͦ</abbr><expan>τούτοις</expan></choice>¨¨ οὐκ ἔστι κοινὴ βουλή· ἀλλʼ ἀνάγκη τούτους ἀλλήλων καταφρονεῖν· <choice n="19v"><abbr>ὁρῶν ᷃¨</abbr><expan>ὁρῶντας</expan></choice> ἀλλήλων τὰ βουλεύματα· σκόπει οὖν δὴ καὶ σὺ εὖ μάλα. <choice n="19v"><abbr>πότερ\</abbr><expan>πότερον</expan></choice> κοινωνεῖς <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> συνδοκεῖ σοι· καὶ ἀρχώμεθα ἐντεῦθεν βουλευόμενοι· ὡς οὐδέποτε ὀρθῶς ἔχοντος. οὔτε τοῦ ἀδικεῖν· οὔτε τοῦ <choice n="19v"><abbr>ἀνταδικ∥῀</abbr><expan>ἀνταδικεῖν</expan></choice> . οὔτε κακῶς πάσχοντα <choice n="19v"><abbr>ἀμύνεσ℥</abbr><expan>ἀμύνεσθαι</expan></choice> ἀντιδρῶντα κακῶς, ἢ ἀφίστασαι <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐ κοινωνεῖς τῆς ἀρχῆς· ἐμοὶ μὲν</said>
+    </div>
+    <div type="section" n="49e">
+        <said who="#Σωκράτης">γὰρ <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> πάλαι οὕτω <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> νῦν ἔτι δοκεῖ. σοὶ <choice n="19v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> εἴ πηι ἄλληι δέδοκται, λέγε <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> δίδασκε· εἰ <choice n="19v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἐμμένεις <choice n="19v"><abbr>τ ͡ ͦ</abbr><expan>τοῖς</expan></choice> πρόσθεν. τὸ μετὰ τοῦτο ἄκουε:</said>
+        <said who="#Κρίτων">ἀλλʼ ἐμμένω τὲ <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> συνδοκεῖ μοι· ἀλλὰ λέγε:</said>
+    <said who="#Σωκράτης">λέγω δὴ αὖ τὸ μετὰ τοῦτο· μᾶλλον δʼ ἐρωτῶ· πότερον ἃ ἄν τις ὁμολογήσηι τῶι δίκαια ὄντα, ποιητέον ἢ ἐξαπατητέον:</said>
+    <said who="#Κρίτων">ποιητέον:</said>
+      <said who="#Σωκράτης">ἐκ τούτων δὴ ἄθρει· ἀπιόντες ἐνθένδε ἡμεῖς μὴ πείσαντες τὴν πόλιν·</said>
+    </div>
+    <div type="section" n="50a">
+        <said who="#Σωκράτης">πότερον κακῶς τινὰς ποιοῦμεν· <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ταῦτα οὓς ἥκιστα δεῖ, ἢ οὔ· <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐμμένομεν οἷς ὡμολογήσαμεν δικαίοις οὖσιν, ἢ οὔ:</said>
+        <said who="#Κρίτων">οὐκ ἔχω ὦ σώκρατες <choice n="19v"><abbr>ἀποκρίνασ℥</abbr><expan>ἀποκρίνασθαι</expan></choice> πρὸς ὃ ἐρωτᾶις. οὐ <choice n="19v"><abbr>γ⃥`</abbr><expan>γὰρ</expan></choice> ἐννοῶ:</said>
+        <said who="#Σωκράτης">ἀλλʼ ὧδε σκόπει. εἰ μέλλουσιν ἡμῖν ἐνθένδε εἴτε ἀποδιδράσκειν: εἴθʼ ὅπως δεῖ ὀνομάσαι τοῦτο, ἐλθόντες οἱ νόμοι καὶ τὸ κοινὸν τῆς πόλεως ἐπιστάντες ἔροιντο, εἰπέ μοι ὦ <choice n="19v"><abbr>σώκρατ ͗¨</abbr><expan>σώκρατες</expan></choice> τί ἐν νῶι ἔχεις ποιεῖν ἄλλό τι, ἢ τούτωι τῶι ἔργωι ὧι <choice n="19v"><abbr>᾽ ̫ϛχειρεῖς</abbr><expan>ἐπιχειρεῖς</expan></choice> δϊανοῆι τούς τε νόμους ἡμᾶς</said>
+    </div>
+    <div type="section" n="50b">
+      <said who="#Σωκράτης">ἀπολέσαι <choice n="19v"><abbr>ς`</abbr><expan>καὶ</expan></choice> σύμπασαν τὴν πόλιν· τὸ <choice n="19v"><abbr>σ`\</abbr><expan>σὸν</expan></choice> <milestone unit="page" n="20r"/>μέρος. ἢ δοκεῖ σοι οἷόν τε ἔτι ἐκείνην τὴν πόλιν εἶναι· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> μὴ ἀνατετράφθαι ἐν ἧι <hi n="20r">ἂν⸌</hi> αἱ γενόμεναι δίκαι μηδὲν ἰσχύωσιν· ἀλλʼ ὑπὸ ἰδιωτῶν ἄκυροί τε γίγνωνται <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> διαφθείρωνται· τί ἐροῦμεν ὦ κρίτων πρὸς ταῦτα καὶ ἄλλα τοιαῦτα. πολλὰ γὰρ ἄν τις ἔχοι ἄλλως τε <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ῥήτωρ εἰπεῖν ὑπὲρ τούτου τοῦ νόμου ἀπολλυμένου· ὃς τὰς δίκας τὰς δικασθείσας προστάττει κυρίας εἶναι· ἢ ἐροῦμεν πρὸς αὐτοὺς ὅτι ἠδίκει</said>
+    </div>
+    <div type="section" n="50c">
+        <said who="#Σωκράτης">γὰρ ἡμᾶς ἡ πόλις· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐκ ὀρθῶς τὴν δίκην ἔκρινε. ταῦτα ἢ τί ἐροῦμεν:</said>
+        <said who="#Κρίτων">ταῦτα νὴ δία ὦ σώκρατες:</said>
+      <said who="#Σωκράτης"><app loc="20r"><rdg>τί οὖν ἂν<choice><abbr>εἴπωσ ̈ ̂</abbr><expan>εἴπωσιν</expan></choice>οἱ νόμοι ὦ σώκρατες</rdg></app> ἦ καὶ ταῦτα ὡμολόγητο ἡμῖν τε καὶ σοὶ, ἢ ἐμμένειν ταῖς δίκαις αἷς <hi n="20r">ἂν⸌</hi> ἡ πόλις δικάζηι· εἰ οὖν αὐτῶν θαυμάζοιμεν λεγόντων ἴσως <hi n="20r">ἂν⸌</hi> εἴποιεν ὅτι ὦ σώκρατες μὴ θαύμαζε τὰ λεγόμενα ἀλλʼ ἀποκρίνου· ἐπειδὴ καὶ εἴωθας <choice n="20r"><abbr>χρῆσ℥</abbr><expan>χρῆσθαι</expan></choice> τωῖ ἐρωταῖν τε <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀποκρίνεσθαι· φέρε γὰρ τί ἐγκαλῶν ἡμῖν</said>
+    </div>
+    <div type="section" n="50d">
+        <said who="#Σωκράτης">καὶ τηῖ πόλει ἐπιχειρεῖς ἡμᾶς,<app loc="20r"><rdg><gap quantity="3" unit="chars" reason="illegible"/></rdg></app> ἀπολλύναι· οὐ πρῶτον μέν σε ἐγεννήσαμεν ἡμεῖς. <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> διʼ ἡμῶν ἔλαβε τὴν <choice n="20r"><abbr>μρά͠</abbr><expan>μητέρα</expan></choice> σου ὁ <choice n="20r"><abbr>πὴ͠ρ</abbr><expan>πατὴρ</expan></choice> · καὶ ἐφύτευσέ σε· φράσον οὖν. τούτοις ἡμῶν τοῖς <choice n="20r"><abbr>νόμ⫎</abbr><expan>νόμοις</expan></choice> τοῖς περὶ τοὺς γάμους μέμφηι τί· ὡς οὐ καλῶς ἔχουσιν: οὐ μέμφομαι φαίην ἄν: ἀλλὰ τοῖς περὶ τὴν: τοῦ γενομένου τροφήν τε <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> παιδείαν. ἐν ηἷ καὶ σὺ ἐπαιδεύθης· ἢ οὐ καλῶς προσέταττον ἡμῶν οἱ ἐπὶ τούτωι τεταγμένοι νόμοι· παραγγέλλοντες τωῖ <choice n="20r"><abbr>πρ̄ὶ͠</abbr><expan>πατρὶ</expan></choice> τωῖ σωῖ σὲ ἐν μουσικηῖ καὶ γυμναστικηῖ παιδεύειν,: καλῶς</said>
+    </div>
+    <div type="section" n="50e">
+        <said who="#Σωκράτης">φαίην ἄν: εἶεν· ἐπειδὴ <choice n="20r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἐγένου τὲ <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐξετράφης <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐπαιδεύθης· ἔχοις <hi n="20r">ἂν⸌</hi> εἰπεῖν· πρῶτον μὲν ὡς οὐχὶ ἡμέτερος ἦσθα <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἔκγονος <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> δοῦλος αὐτός τε καὶ οἱ σοὶ πρόγονοι· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> εἰ τοῦτο οὕτως ἔχει· ἆρʼ ἐξ ἴσου οἴει εἶναι σοὶ τὸ δίκαιον <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡμῖν· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἅττʼ <hi n="20r">ἂν⸌</hi> ἡμεῖς σὲ ἐπιχειρῶμεν ποιεῖν <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> σοὶ ταῦτα ἀντιποιεῖν οἴει <choice n="20r"><abbr>δίκαι\</abbr><expan>δίκαιον</expan></choice> εἶναι, ἢ πρὸς μὲν ἄρα σοι τὸν <choice n="20r"><abbr>πρά͠</abbr><expan>πατέρα</expan></choice> οὐκ ἐξ ἴσου ἦν τὸ δίκαιον. <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="20r"><abbr>πρ` ͦ</abbr><expan>πρὸς</expan></choice> δεσπότην εἴ σοι ὢν ἐτύγχανεν, ὥστε ἅπερ πάσχοις ταῦτα <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀντιποιεῖν· οὔτε κακῶς ἀκούοντα ἀντιλέγειν· οὔτε τυπτόμενον</said>
+    </div>
+    <div type="section" n="51a">
+      <said who="#Σωκράτης">ἀντιτύπτειν· οὔτε ἄλλα τοιαῦτα πολλά, πρὸς <choice n="20r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τὴν <choice n="20r"><abbr>πρ ͠ίδα</abbr><expan>πατρίδα</expan></choice> ἄρα <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοὺς νόμους ἐξέσται σοι· ὥστε ἐάν σε ἐπιχειρῶμεν ἡμεῖς ἀπολλύναι δίκαιον ἡγούμενοι εἶναι, καὶ σὺ δὲ ἡμᾶς τοὺς νόμους καὶ τὴν <choice n="20r"><abbr>πρ ͠ίδα</abbr><expan>πατρίδα</expan></choice> καθʼ ὅσον δύνασαι ἐπιχειρήσεις ἀνταπολλύναι, καὶ φήσεις ταῦτα ποιῶν δίκαια πράττειν· ὁ τηῖ ἀληθείαι τῆς ἀρετῆς ἐπιμελούμενος; ἢ οὕτως εἶ σοφὸς ὥστε λέληθέ σε. ὅτι <choice n="20r"><abbr>μρς́͠</abbr><expan>μητρός</expan></choice> τε καὶ  <choice n="20r"><abbr>πρς̀͠</abbr><expan>πατρὸς</expan></choice> · καὶ τῶν ἄλλων προγόνων ἁπάντων. τιμιώτερόν ἐστι <choice n="20r"><abbr>πρὶ͠ς</abbr><expan>πατρὶς</expan></choice> <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> σεμνότερον καὶ ἁγιώτερον· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐν μείζονι</said>
+    </div>
+    <div type="section" n="51b">
+      <said who="#Σωκράτης">μοίραι. καὶ παρὰ θεοῖς <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> παρʼ <choice n="20r"><abbr>ἀν ͠´οις</abbr><expan>ἀνθρώποις</expan></choice> τοῖς νοῦν ἔχουσι· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="20r"><abbr>σέβεσ℥</abbr><expan>σέβεσθαι</expan></choice> δεῖ καὶ μᾶλλον ὑπείκειν· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> θωπεύειν. <choice n="20r"><abbr>πρ ͠ίδα</abbr><expan>πατρίδα</expan></choice> χαλεπαίνουσαν. ἢ <choice n="20r"><abbr>πρά͠</abbr><expan>πατέρα</expan></choice> ॱ καὶ ἢ πείθειν ἢ ποιεῖν ἃ <hi n="20r">ἂν⸌</hi> κελεύηι· <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> πάσχειν ἐάν τι προστάττηι παθεῖν· ἡσυχίαν ἄγονταॱ ἐάντε <choice n="20r"><abbr>τύπτεσ℥</abbr><expan>τύπτεσθαι</expan></choice> · ἐάντε δεῖσθαι· ἐάντε εἰς πόλεμον ἄγηι τρωθησόμενον. ἢ ἀποθανούμενον. ποιητέον ταῦτα. <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τὸ δίκαιον οὕτως ἔχειॱ <choice n="20r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐχὶ ὑπεικτέον οὐδὲ ἀναχωρητέον· <choice n="20r"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> λειπτέον τὴν τάξιν· ἀλλὰ καὶ ἐν πολέμωι <milestone unit="page" n="20v"/>καὶ ἐν δικαστηρίωιॱ καὶ πανταχοῦ· ποιητέον ἃ <hi n="20r">ἂν⸌</hi> κελεύηι ἡ</said>
+    </div>
+    <div type="section" n="51c">
+        <said who="#Σωκράτης">πόλις τε <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡ <choice n="20v"><abbr>πρί͠ς</abbr><expan>πατρίς</expan></choice> . ἢ πείθειν αὐτὴν· ηἷ τὸ δίκαιον πέφυκε· βιάζεσθαι <choice n="20v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> οὐχ ὅσιον· οὔτε <choice n="20v"><abbr>μρά͠</abbr><expan>μητέρα</expan></choice> οὔτε <choice n="20v"><abbr>πρά͠</abbr><expan>πατέρα</expan></choice> · πολὺ <choice n="20v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τούτων ἔτι ἧττον τὴν <choice n="20v"><abbr>πρ ͠ίδα</abbr><expan>πατρίδα</expan></choice> . τί φήσομεν πρὸς ταῦτα ὦ κρίτωνॱ ἀληθῆ λέγειν τοὺς νόμους, ἢ οὔ:</said>
+        <said who="#Κρίτων">ἔμοιγε δοκεῖ:</said>
+      <said who="#Σωκράτης">“σκόπει τοίνυν ὦ σώκρατες φαῖεν <hi n="20v">ἂν⸌</hi> ἴσως οἱ νόμοι. εἰ ἡμεῖς ταῦτα ἀληθῆ λέγομενॱ ὅτι οὐ δίκαια ἡμᾶς ἐπιχειρεῖς δρᾶιν· ἃ νῦν ἐπιχειρεῖς. ἡμεῖς γάρ σε γεννήσαντες. ἐκθρέψαντες. παιδεύσαντες. μεταδόντες ἁπάντων. ὧν οἷοί τε ἦμεν καλῶν· σοί τε <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοῖς ἄλλοις</said>
+    </div>
+    <div type="section" n="51d">
+      <said who="#Σωκράτης">πᾶσιν πολίταις, ὅμως προαγορεύομεν τωῖ ἐξουσίαν πεποιηκέναι ἀθηναίων τωῖ βουλομένωι, ἐπειδὰν δοκιμασθηῖ <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἴδηι τὰ ἐν τηῖ πόλει πράγματα· καὶ ἡμᾶς τοὺς νόμους ωἷ <hi n="20v">ἂν⸌</hi> μὴ ἀρέσκωμεν ἡμεῖς, ἐξεῖναι λαβόντα τὰ αὑτοῦ ἀπιέναι ὅποι <hi n="20v">ἂν⸌</hi> βούληται· καὶ οὐδεὶς ἡμῶν τῶν νόμων ἐμποδών ἐστιν· οὐδʼ ἀπαγορεύειॱ ἐάντε τις βούληται ὑμῶν εἰς ἀποικίαν ἰέναι· εἰ μὴ ἀρέσκοιμεν ἡμεῖς τε <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡ πόλις. ἐάντε μετοικεῖν. ἄλλοσέ ποι ἐλθών· ἰέναι ἐκεῖσε ὅποι <hi n="20v">ἂν⸌</hi> βούληται ἔχοντα τὰ αὑτοῦ. ὃς δʼ <hi n="20v">ἂν⸌</hi></said>
+    </div>
+    <div type="section" n="51e">
+      <said who="#Σωκράτης">ὑμῶν παραμείνηι ὁρῶν ὃν τρόπον ἡμεῖς τάς τε δίκας δικάζομεν· καὶ τἆλλα τὴν πόλιν διοικοῦμεν, ἤδη φαμὲν τοῦτον ὡμολογηκέναι ἔργωι ἡμῖν ἃ <hi n="20v">ἂν⸌</hi> ἡμεῖς κελεύωμεν, ποιήσειν ταῦτα· καὶ τὸν μὴ πειθόμενον, τριχηῖ φαμεν ἀδικεῖν· ὅτι τε γεννήταις οὖσιν ἡμῖν οὐ πείθεταιॱ <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὅτι τροφεῦσι· καὶ ὅτι ὁμολογήσας ἦ μὴν <choice n="20v"><abbr>πείθεσ℥</abbr><expan>πείθεσθαι</expan></choice> οὔτε <choice n="20v"><abbr>πείθεℨ</abbr><expan>πείθεται</expan></choice> οὔτε πείθει ἡμᾶς· εἰ μὴ καλῶς τι ποιοῦμεν· προτιθέντων</said>
+    </div>
+    <div type="section" n="52a">
+      <said who="#Σωκράτης">ἡμῶν καὶ οὐκ ἀγρίως ἐπιταττόντων ποιεῖν· ἃ <hi n="20v">ἂν⸌</hi> κελεύωμεν. ἀλλὰ ἐφιέντων δυοῖν θάτερα· ἢ πείθειν ἡμᾶς ἢ ποιεῖν, τούτων οὐδέτερα ποιεῖ· ταύταις δὴ φαμὲν καὶ σὲ ὦ σώκρατες ταῖς αἰτίαις ἐνέξεσθαι εἴπερ <choice n="20v"><abbr>ποιήσ ᷤ ᷤ</abbr><expan>ποιήσεις</expan></choice> ἃ ἐπινοεῖς· <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐχ ἥκιστα ἀθηναίων σέॱ ἀλλʼ ἐν τοῖς μάλιστα· εἰ ᷂<choice n="20v"><abbr>῏ο᷂</abbr><expan>οὖν</expan></choice> ἐγὼ εἴποιμι δια τί δὴ. ἴσως ἄν μου δικαίως καθάπτοιντο λέγοντες· ὅτι ἐν τοῖς μάλιστα ἀθηναίων ἐγὼ αὐτοῖς ὡμολογηκὼς τυγχάνω ταύτην τὴν ὁμολογίαν· φαῖεν γὰρ <hi n="20v">ἂν⸌</hi> ὅτι ὦ σώκρατες μεγάλα ἡμῖν</said>
+    </div>
+    <div type="section" n="52b">
+      <said who="#Σωκράτης"><choice n="20v"><abbr>τούτ ͡</abbr><expan>τούτων</expan></choice> τεκμήρια ἐστὶν· ὅτι σοι <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡμεῖς ἠρέσκομεν <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡ πόλιςॱ οὐ γὰρ ἄν ποτε τῶν ἄλλων ἀθηναίων ἁπάντων διαφερόντως ἐν αὐτηῖ ἐπεδήμεις· εἰ μή σοι διαφερόντως ἤρεσκε· καὶ οὔτʼ ἐπὶ θεωρίαν πώποτε ἐκ τῆς πόλεως ἐξῆλθες ὅτι μὴ ἅπαξ εἰς ἰσθμόν· οὔτε ἄλλοσε οὐδαμόσε. εἰ μή ποι στρατευσόμενος· οὔτε ἄλλην ἐποιήσω ἀποδημίαν πώποτε ὥσπερ οἱ <app loc="20v"><rdg>ἄλλοι</rdg></app> <choice n="20v"><abbr>ἄν ͠οι</abbr><expan>ἄνθρωποι</expan></choice> · οὐδʼ ἐπιθυμΐα σε ἄλλης πόλεως. οὐδʼ ἄλλων νόμων ἔλαβεν εἰδέναι· ἀλλὰ ἡμεῖς σοι ἱκανοὶ ἦμεν <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡ ἡμετέρα πόλις· οὕτω</said>
+    </div>
+    <div type="section" n="52c">
+      <said who="#Σωκράτης">σφόδρα ἡμᾶς ηἱροῦ. <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὡμολόγεις καθʼ ἡμᾶς <choice n="20v"><abbr>πολιτεύσεσ℥</abbr><expan>πολιτεύσεσθαι</expan></choice> · τά τε ἄλλα καὶ παῖδας ἐν αὐτηῖ ἐποιήσω ὡς ἀρεσκούσης σοι τῆς <choice n="20v"><abbr>πόλε≀</abbr><expan>πόλεως</expan></choice> . ἔτι τοίνυν ἐν αὐτηῖ τηῖ δίκηι ἐξῆν σοι φυγῆς τιμήσασθαι· εἰ ἐβούλου <choice n="20v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὅπερ νῦν ἀκούσης τῆς πόλεως ἐπιχειρεῖς, τότε ἑκούσης ποιῆσαι. <milestone unit="page" n="21r"/>σὺ <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τότε μὲν ἐκαλλωπίζου ὡς οὐκ ἀγανακτῶν εἰ δέοι τεθνάναι σε· ἀλλʼ ηἱροῦ ὡς ἔφησθα πρὸ τῆς φυγῆς θάνατον· νῦν δὲ οὔτʼ <choice n="21r"><abbr>ἐκείνƴ</abbr><expan>ἐκείνους</expan></choice> τοὺς λόγους αἰσχύνηι· οὔτε ἡμῶν τῶν νόμων ἐντρέπηι ἐπιχειρῶν διαφθεῖραι· πράττεις</said>
+    </div>
+    <div type="section" n="52d">
+        <said who="#Σωκράτης">τε ἅπερ <hi n="21r">ἂν⸌</hi> δοῦλος ὁ φαυλότατος πράξειεν· ἀποδιδράσκειν ἐπιχειρῶν παρὰ τὰς συνθήκας τὲ <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τὰς ὁμολογίας. καθʼ ἃς ἡμῖν συνέθου <choice n="21r"><abbr>πολιτεύεσ℥</abbr><expan>πολιτεύεσθαι</expan></choice> ॱ πρῶτον οὖν ἡμῖν τοῦτο αὐτὸ ἀπόκριναιॱ εἰ ἀληθῆ λέγομεν φάσκοντές σε ὡμολογηκέναι πολιτεύσεσθαι καθʼ ἡμᾶς ἔργωι ἀλλʼ οὐ λόγωι· ἢ οὐκ ἀληθῆ· τί φῶμεν πρὸς ταῦτα ὦ κρίτων ἄλλό τι ἢ ὁμολογῶμεν:</said>
+        <said who="#Κρίτων">ἀνάγκη ὦ σώκρατες:</said>
+      <said who="#Σωκράτης">ἄλλο τι οὖν <hi n="21r">ἂν⸌</hi> φαῖεν· ἢ συνθήκας τὰς πρὸς ἡμᾶς αὐτοὺς <choice><abbr>ς`</abbr><expan>καὶ</expan></choice> ὁμολογίας παραβαίνεις. οὐχ ὑπʼ</said>
+    </div>
+    <div type="section" n="52e">
+      <said who="#Σωκράτης">ἀνάγκης ὁμολογήσας· <choice n="21r"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> ἀπατηθεὶς· <choice n="21r"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> ἐν ὀλίγωι χρόνωι ἀναγκασθεὶς βουλεύσασθαι· ἀλλʼ ἐν ἔτεσιν ἑβδομήκοντα ἐν οἷς ἐξῆν σοι ἀπιέναι· εἰ μὴ ἠρέσκομεν ἡμεῖς· μὴ <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> δίκαιαι ἐφαίνοντό σοι αἱ ὁμολογίαι εἶναι· σύ δὲ οὔτε λακεδαίμονα προηιροῦ οὔτε κρήτην. ἃς δὴ ἑκάστοτε φηὶς εὐνομεῖσθαιॱ οὔτε <choice n="21r"><abbr>ἄλλ⌠</abbr><expan>ἄλλην</expan></choice> οὐδεμίαν τῶν Ἑλληνίδων πόλεων. οὐδὲ τῶν βαρβαρῶν·</said>
+    </div>
+    <div type="section" n="53a">
+        <said who="#Σωκράτης">ἀλλʼ ἐλάττω: ἐξ αὐτῆς ἀπεδήμησας. ἢ οἱ χωλοί τε <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τυφλοὶ· καὶ οἱ ἄλλοι ἀνάπηροι· οὕτως σοι διαφερόντως τῶν ἄλλων ἀθηναίων ἤρεσκεν ἡ πόλις τε <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡμεῖς οἱ νόμοι δῆλον ὅτιॱ τίνι γὰρ <hi n="21r">ἂν⸌</hi> πόλις ἀρέσκοι ἄνευ νόμωνॱ νῦν <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> δὴ οὐκ ἐμμένεις τοῖς ὡμολογημένοις; ἐὰν ἡμῖν γε πείθηι ὦ σώκρατες· καὶ οὐ καταγέλαστός γε ἔσηι ἐκ τῆς πόλεως ἐξελθών.<milestone unit="para" ed="P"/>σκόπει γὰρ δὴ ταῦτα παραβὰς. καὶ ἐξαμαρτών τι τούτων, τί  <choice n="21r"><abbr>ἀγαθ`\</abbr><expan>ἀγαθὸν</expan></choice> ἐργάσηι σαυτὸν. ἢ τοὺς ἐπιτηδείους τοὺς</said>
+    </div>
+    <div type="section" n="53b">
+        <said who="#Σωκράτης">σαυτοῦ· ὅτι μὲν γὰρ κινδυνεύσουσι γέ σου οἱ ἐπιτήδειοι <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> αὐτοὶ φεύγειν· <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> στερηθῆναι τῆς <choice n="21r"><abbr>πόλε≀</abbr><expan>πόλεως</expan></choice> ἢ τὴν οὐσίαν ἀπολέσαι, σχεδόν τι δῆλον· αὐτὸς <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> πρῶτον μὲν· ἐὰν εἰς τῶν ἐγγύτατα τινὰ πόλεων ἔλθηις. ἢ Θήβαζε· ἢ μεγάραδε εὐνομοῦνται γὰρ ἀμφότεραι, πολέμιος ἥξεις ὦ σώκρατες τηῖ τούτων πολιτείαι. <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ὅσοιπερ κήδονται τῶν αὑτῶν πόλεων, ὑποβλέψονταί σε· διαφθορέα ἡγούμενοι τῶν νόμων· <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> βεβαιώσεις τοῖς δικασταῖς τὴν δόξαν· ὥστε δοκεῖν ὀρθῶς τὴν δίκην;</said>
+    </div>
+    <div type="section" n="53c">
+      <said who="#Σωκράτης">δικάσαι· ὅστις γὰρ νόμων διαφθορεύς ἐστι· σφόδρά που δόξειεν ἂν, νέων γε <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="21r"><abbr>ἀνοήτ ͡</abbr><expan>ἀνοήτων</expan></choice> <choice n="21r"><abbr>ἀν ͠´ων</abbr><expan>ἀνθρώπων</expan></choice> διαφθορεὺς εἶναι· πότερον οὖν φεύξηι τάς τε <choice n="21r"><abbr>εὐνομουμέν ᷃</abbr><expan>εὐνομουμένας</expan></choice> πόλεις καὶ τῶν ἀνδρῶν τοὺς κοσμιωτάτους· <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοῦτο ποιοῦντι ἆρα ἄξιον ἔστι σοι ζῆν. ἢ πλησιάσεις τούτοις καὶ ἀναισχυντήσεις διαλεγόμενος τινὰς λόγους ὦ σώκρατες <choice n="21r"><abbr>οι ᷃</abbr><expan/></choice> οὕσπερ ἐνθάδε, ὡς ἡ ἀρετὴ <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡ δικαιοσύνη πλείστου ἄξιον τοῖς <choice n="21r"><abbr>ἀν ͠´οις</abbr><expan>ἀνθρώποις</expan></choice> · <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> τὰ νόμιμα <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οἱ νόμοι· <choice n="21r"><abbr>ς`</abbr><expan>καὶ</expan></choice> οὐκ οἴει ἄσχημον <choice n="21r"><abbr>φανεῖσ℥</abbr><expan>φανεῖσθαι</expan></choice> τὸ τοῦ σωκράτους</said>
+    </div>
+    <div type="section" n="53d">
+        <said who="#Σωκράτης">πρᾶγμα; οἴεσθαί γε χρή· ἀλλʼ ἐκ μὲν τούτων τῶν πόλεων ἀπαρεῖς· ἥξεις <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> εἰς Θετταλίαν παρὰ <milestone unit="page" n="21v"/>τοὺς ξένους τοῦ κρίτωνος. ἐκεῖ γὰρ δὴ πλείστη ἀταξία καὶ ἀκολασία. <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἴσως <hi n="21v">ἂν⸌</hi> . ἡδέως σου ἀκούοιεν ὡς γελοίως ἐκ τοῦ δεσμωτηρίου ἀπεδίδρασκες σκευήν τέ τινὰ περιθέμενος ἢ διφθέραν λαβὼν. ἢ ἄλλα οἷα δὴ εἰώθασιν ἐνσκευάζεσθαι οἱ ἀποδιδράσκοντες· καὶ τὸ σχῆμα τὸ σαυτοῦ μεταλλάξας. ὅτι <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> γέρων ἀνὴρ· σμικροῦ χρόνου τωῖ βίωι λοιποῦ ὄντος ὡς τὸ
+            εἰκός,</said>
+    </div>
+    <div type="section" n="53e">
+      <said who="#Σωκράτης">ἐτόλμησας οὕτω γλίσχρως ἐπιθυμεῖν ζῆνॱ νόμους τοὺς μεγίστους παραβὰς οὐδεὶς ὃς ἐρεῖ· ἴσως ἂν μή τινα λυπηῖς. εἰ <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> μή, ἀκούσηι ὦ σώκρατες· πολλὰ καὶ ἀνάξια σαυτοῦ. <choice n="21v"><abbr>ὑπερχόμεν ͦ</abbr><expan>ὑπερχόμενος</expan></choice> δὴ πάντας <choice n="21v"><abbr>ἀν ͠´ους</abbr><expan>ἀνθρώπους</expan></choice> βιώσηι· καὶ δουλεύων. τί ποιῶν ἢ εὐωχούμενος ἐν Θετταλίαι· ὥσπερ ἐπὶ δεῖπνον ἀποδεδημηκὼς εἰς Θετταλίαν· λόγοι <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἐκεῖνοι οἱ περὶ δικαιοσύνης <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τῆς ἄλλης ἀρετῆς. ποῦ ἡμῖν ἔσονταιॱ </said>
+    </div>
+    <div type="section" n="54a">
+      <said who="#Σωκράτης">ἀλλὰ δὴ τῶν παίδων ἕνεκα βούλει ζῆν. ἵνα αὐτοὺς ἐκθρέψηις <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> παιδεύσηις; τί <choice n="21r"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> εἰς Θετταλίαν αὐτοὺς ἀγαγὼν θρέψεις τε καὶ παιδεύσεις. ξένους ποιήσας. ἵνα <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> τοῦτό σου ἀπολαύσωσιν. ἢ τοῦτο μὲν οὔ· αὐτοῦ <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> τρεφόμενοι σοῦ ζῶντος βέλτιον θρέψονται <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> παιδεύσονται μὴ συνόντος σοῦ αὐτοῖς. οἱ γὰρ ἐπιτήδειοι οἱ σοὶ ἐπιμελήσονται αὐτῶν· πότερον ἐὰν μὲν εἰς Θετταλίαν ἀποδημήσηις ἐπιμελήσονταιॱ ἐὰν <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> εἰς ἅιδου ἀποδημήσηις, οὐχὶ ἐπιμελήσονταιॱ εἴπερ γέ τι ὄφελος αὐτῶν ἐστι τῶν</said>
+    </div>
+    <div type="section" n="54b">
+        <said who="#Σωκράτης">σοὶ φασκόντων <choice n="21v"><abbr>ἐπιτηδεί ͡ </abbr><expan>ἐπιτηδείων</expan></choice> εἶναι; <choice n="21v"><abbr>οἴεσ℥</abbr><expan>οἴεσθαί</expan></choice> γε χρή· ἀλλʼ ὦ σώκρατες πειθόμενος ἡμῖν τοῖς σοῖς τροφεῦσι· μήτε παῖδας περὶ πλείονος ποιοῦ· μήτε τὸ ζῆν· μήτε ἄλλο μηδὲν πρὸ τοῦ δικαίου· ἵνα εἰς ἅιδου ἐλθὼν ἔχηις ταῦτα πάντα <choice n="21v"><abbr>ἀπολογήσασ℥</abbr><expan>ἀπολογήσασθαι</expan></choice> τοῖς ἐκεῖ ἄρχουσιν· οὔτε γὰρ ἐνθάδε σοι φαίνεται ταῦτα πράττοντι ἄμεινον εἶναι· <choice n="21v"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> δικαιότερον. <choice n="21v"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> ὁσιώτερον. <choice n="21v"><abbr>οὐ𐅀`</abbr><expan>οὐδὲ</expan></choice> ἄλλωι τῶν σῶν οὐδενὶ, οὔτε <app loc="21v"><rdg>ἐκε<gap quantity="3" unit="chars" reason="illegible"/></rdg></app>ἐκεῖσε ἀφικομένωι ἄμεινον ἔσται· ἀλλὰ νῦν μὲν ἠδικημένος ἄπει ἐὰν ἀπίηις. οὐχ ὑφʼ ἡμῶν τῶν νόμων· </said>
+    </div>
+    <div type="section" n="54c">
+      <said who="#Σωκράτης">ἀλλʼ ὑπʼ <choice n="21v"><abbr>ἀν ͠´ω</abbr><expan>ἀνθρώπων</expan></choice> · ἐὰν <choice n="21v"><abbr>𐅀`</abbr><expan>δὲ</expan></choice> ἐξέλθηις οὕτως αἰσχρῶς ἀνταδικήσας τε <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἀντικακουργήσας τὰς σαυτοῦ ὁμολογίας τὲ <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> συνθήκας τὰς πρὸς ἡμᾶς παραβὰς. <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> κακὰ ἐργασάμενος τούτους οὓς ἥκιστα ἔδει· σαυτόν τε <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> φίλους <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> <choice n="20r"><abbr>πρ ͠ίδα</abbr><expan>πατρίδα</expan></choice> <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἡμᾶς, ἡμεῖς τέ σοι χαλεπανοῦμεν ζῶντιॱ  <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐκεῖ οἱ ἡμέτεροι ἀδελφοὶ οἱ ἐν ἅιδου νόμοιॱ οὐκ εὐμενῶς σε ὑποδέξονταιॱ εἰδότες ὅτι καὶ ἡμᾶς ἐπεχείρησας ἀπολέσαι τὸ σὸν μέρος. ἀλλὰ μή σε πείσηι κρίτων ποιεῖν ἃ λέγει μᾶλλον</said>
+    </div>
+    <div type="section" n="54d">
+        <said who="#Σωκράτης">ἢ ἡμεῖς. ταῦτα ὦ φίλε ἑταῖρε κρίτων εὖ ἴσθι ὅτι ἐγὼ δοκῶ ἀκούειν· ὥσπερ οἱ κορυβαντιῶντες τῶν αὐλῶν δοκοῦσιν ἀκούειν· <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ἐν ἐμοὶ αὕτη ἡ ἠχὴ τούτων τῶν <choice n="21v"><abbr>λόγ ͡ </abbr><expan>λόγων</expan></choice> βομβεῖ· <choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> ποιεῖ μὴ <choice n="21v"><abbr>δύνασ℥</abbr><expan>δύνασθαι</expan></choice> τῶν ἄλλων ἀκούειν· ἀλλὰ ἴσθι ὅσα γε τὰ νῦν ἐμοὶ δοκοῦντα· ἐάν <app loc="21v"><rdg>δέ</rdg></app> τι λέγηις παρὰ ταῦτα, μάτην ἐρεῖς· ὅμως μέντοι· εἴ τι οἴει πλέον ποιήσειν, λέγε:</said>
+            <said who="#Κρίτων">ἀλλʼ ὦ σώκρατες· οὐκ ἔχω λέγειν:</said>
+      <said who="#Σωκράτης">ἔα τοίνυν ὦ κρίτων</said>
+    </div>
+    <div type="section" n="54e">
+        <said who="#Σωκράτης"><choice n="21v"><abbr>ς`</abbr><expan>καὶ</expan></choice> πράττωμεν ταύτηι· ἐπειδὴ ταύτηι ὁ <choice n="21v"><abbr>θ ͠`ς</abbr><expan>θεὸς</expan></choice> ὑφηγεῖται:</said>
+    </div>
+  </body>
+</text>
+</TEI>

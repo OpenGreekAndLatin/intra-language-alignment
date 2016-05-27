@@ -1,5 +1,6 @@
 <?php
 
+// Greek token
 class Token{
 		
 	protected static $levensteinThreshold=0.3;
@@ -20,10 +21,10 @@ class Token{
 	
 	// convert $token to lowercase
 	static function lowerCase($token){
-		return mb_strtolower($token, 'UTF-8');
+	// this function doesn't work with Ancient Greek letters, so we need to write new function for case regularization	
+		return strtolower($token);
 	}
 	
-
 	// Check the similarity of two tokens according to Levenshtein Distance Metric, using $levensteinThreshold 
 	static function isSimilarTo( $token1, $token2){
 

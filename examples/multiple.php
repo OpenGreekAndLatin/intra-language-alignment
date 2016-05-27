@@ -48,7 +48,7 @@ The tool allows alignment between two texts in the same language, to detect vari
 
 	$models_Folder="../models/";
 	require_once($models_Folder."Sentence.php");
-	require_once($models_Folder."Aligner.php");
+	require_once($models_Folder."Aligner3.php");
 	require_once($models_Folder."Alignment.php");
     if($_REQUEST['Text1']!="" && $_REQUEST['Text2']!="" && $_REQUEST['Text3']!="")
 	 {
